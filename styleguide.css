@@ -10,9 +10,13 @@ html {
 :root {
   --primary-color: #3bb2f6;
   --secondary-color: #3988f0;
-  --box--shadow-color: gray;
-  --text-color: black;
   --background-color: #fff;
+  --text-color: #282828;
+
+  --box--shadow-color: gray;
+  --border-color: #e2e8f0;
+  --warning-red-color: #ef4444;
+  --success-green-color: #10b981;
 }
 
 /* Button */
@@ -24,15 +28,23 @@ button {
   font-weight: 600;
   border: none;
   text-decoration: none;
+  cursor: pointer;
 }
-/* Header navbar  */
+
+/* This File contains all the repeating code 
+  such as Header nav bar
+  left right side navbar
+*/
+
+/* Header navbar   */
 
 .header {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   top: 0px;
   background-color: var(--primary-color);
+  z-index: 99999;
 }
 .header:nth-child(0) {
   align-self: flex-start;
@@ -58,6 +70,162 @@ button {
 }
 
 .position-left {
+  align-self: center;
   flex-grow: 1;
   margin-left: 1rem;
+}
+
+/* Container  */
+.container {
+  display: grid;
+  grid-template-columns: 280px 1fr 380px;
+  grid-template-areas: "asideleft main asideright";
+  margin-top: 3rem;
+}
+
+/* Left side navigation */
+.aside__left {
+  position: sticky;
+  top: 6rem;
+  grid-area: asideleft;
+  overflow-y: auto;
+  height: calc(100vh - 8.2rem);
+}
+.navbar {
+  margin-left: 3rem;
+}
+.navbar_heading {
+  width: 60%;
+  color: var(--text-color);
+  border-radius: 4px;
+  padding: 3px;
+}
+.components__list li {
+  list-style: none;
+  margin: 1.5rem 0px;
+}
+.components__list li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.components__list li a:hover {
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+/* Main component */
+
+main {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 1rem;
+  margin-top: 3rem;
+}
+
+.component__heading {
+  margin: 0 1rem;
+  font-weight: 800;
+  scroll-margin-block: 6rem;
+}
+.component__description {
+  margin: 1rem;
+  color: var(--text-color);
+}
+.component__name {
+  position: relative;
+  margin: 0 1rem;
+  font-weight: 700;
+}
+.component__name::before {
+  content: "";
+  display: block;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.components__example {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.component_types {
+  scroll-margin-block: 6rem;
+}
+
+/* Right side navigation */
+.aside__right {
+  position: sticky;
+  grid-area: asideright;
+  top: 6rem;
+  margin-left: 3rem;
+  overflow-y: auto;
+  height: 38rem;
+}
+.jumptopage_heading {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.jumptopageList li {
+  list-style: none;
+  margin: 8px 0;
+}
+.jumptopageList li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.jumptopageList li a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+/* media Queries */
+
+@media screen and (max-width: 1240px) {
+  .container {
+    grid-template-columns: 280px 1fr;
+    grid-template-areas: "asideleft main";
+    margin: 1rem;
+  }
+  .aside__right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas: " main";
+    margin: 1rem;
+  }
+  .aside__right {
+    display: none;
+  }
+  .aside__left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "main";
+    margin: 1rem;
+  }
+  .aside__left {
+    display: none;
+  }
+  .aside__right {
+    display: none;
+  }
 }

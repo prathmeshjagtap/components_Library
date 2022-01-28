@@ -1,0 +1,44 @@
+@import url("../../reset.css");
+@import url("../../styleguide.css");
+
+.alert {
+  padding: 8px;
+  border-radius: 5px;
+  margin: 1rem;
+  width: 100%;
+}
+
+.primary {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.success {
+  background-color: var(--success-green-color);
+  color: var(--background-color);
+}
+.warning {
+  background-color: var(--warning-red-color);
+  color: var(--background-color);
+}
+.dark {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+
+.outline-primary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.outline-warning {
+  border: 1px solid var(--warning-red-color);
+  color: var(--warning-red-color);
+}
+.outline-success {
+  border: 1px solid var(--success-green-color);
+  color: var(--success-green-color);
+}
+.outline-dark {
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+}
