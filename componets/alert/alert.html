@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="../../styles/style.css" />
+    <link rel="stylesheet" href="../../styles/component.css" />
+    <title>Alert</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__navbar">
+        <div class="position-left">
+          <a class="header_links" href="../../index.html"
+            ><i class="far fa-grin-hearts home_icon icon"></i>Easy UI</a
+          >
+        </div>
+
+        <a class="header_links" href="#">Docs</a>
+        <a
+          class="header_links"
+          href="https://github.com/prathmeshjagtap/components_Library"
+          ><i class="fab fa-github icon"></i
+        ></a>
+        <a class="header_links" href="https://twitter.com/prathmesh_20"
+          ><i class="fab fa-twitter icon"></i
+        ></a>
+      </nav>
+    </header>
+    <div class="container">
+      <aside class="aside__left">
+        <div class="navbar">
+          <h3 class="navbar_heading">Getting Started</h3>
+          <ul class="components__list">
+            <li><a href="">Documentation</a></li>
+          </ul>
+          <h3 class="navbar_heading">Components</h3>
+          <ul class="components__list">
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="./alert.html">Alert</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="../buttons/buttons.html">Buttons</a></li>
+            <li><a href="../cards/cards.html">Cards</a></li>
+            <li><a href="../images/images.html">Images</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <h1 class="component__heading" id="alert">Alert</h1>
+        <p class="component__description">
+          Alert Provides user with the info of Action, in a way that attracts
+          users action.
+        </p>
+        <div class="component_types" id="simpleAlert">
+          <h2 class="component__name">Simple Alert</h2>
+          <p class="component__description">
+            Just add alert class to create a Alert . You can use additional
+            classes like primary, warnign, success, dark on your choice.
+          </p>
+          <div class="components__example">
+            <div class="alert primary">
+              This is a Simple Primary Alert Check it out!
+            </div>
+            <div class="alert warning">
+              This is a Simple Warning Alert Check it out!
+            </div>
+            <div class="alert success">
+              This is a Simple success Alert Check it out!
+            </div>
+            <div class="alert dark">
+              This is a Simple dark color Alert Check it out!
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed/EvXhSMvy43oELIjb64hx"
+              style="
+                width: 100%;
+                min-height: 316px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="iconAlert">
+          <h2 class="component__name">Icon Alert</h2>
+          <p class="component__description">Alerts with icons</p>
+          <div class="components__example">
+            <div class="alert primary">
+              <i class="fas fa-info-circle"></i>
+              This is a Info Alert Check it out!
+            </div>
+            <div class="alert warning">
+              <i class="fas fa-exclamation-circle"></i>
+              This is a Warning Alert with Icon Check it out!
+            </div>
+            <div class="alert success">
+              <i class="fas fa-check-circle"></i>
+              This is success Alert with Icon Check it out!
+            </div>
+            <div class="alert dark">
+              <i class="fas fa-exclamation-triangle"></i>
+              This is a danger alert with Icon Check it out!
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed/iunJMHKU7lY62Ca4nrdU"
+              style="
+                width: 100%;
+                min-height: 417px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="outlineAlert">
+          <h2 class="component__name">Outline Alert</h2>
+          <p class="component__description">
+            You can add outline class to have outline alerts
+          </p>
+          <div class="components__example">
+            <div class="alert outline-primary">
+              This is outline primary Alert Check it out!
+            </div>
+            <div class="alert outline-warning">
+              This is a outline Warning Alert Check it out!
+            </div>
+            <div class="alert outline-success">
+              This is outline success Alert Check it out!
+            </div>
+            <div class="alert outline-dark">
+              This is a outline Dark color Alert Check it out!
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed/Mx2GKGPUTPuf4bTxrw8M"
+              style="
+                width: 100%;
+                min-height: 316px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </main>
+      <aside class="aside__right">
+        <h3 class="jumptopage_heading">On this Page</h3>
+        <ul class="jumptopageList">
+          <li><a href="#alert">Alert Info</a></li>
+          <li><a href="#simpleAlert">Simple Alert</a></li>
+          <li><a href="#iconAlert">Icon Alert</a></li>
+          <li><a href="#outlineAlert">Outline Alert</a></li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>
