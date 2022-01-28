@@ -1,24 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
-
-html {
-  font-family: "Roboto Slab", serif;
-  background-color: var(--background-color);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* Colors */
-
-:root {
-  --primary-color: #3bb2f6;
-  --secondary-color: #3988f0;
-  --background-color: #fff;
-  --text-color: #282828;
-
-  --box--shadow-color: gray;
-  --border-color: #e2e8f0;
-  --warning-red-color: #ef4444;
-  --success-green-color: #10b981;
+.main {
+  display: block;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  margin-top: 8rem;
+  max-width: 700px;
 }
-
+.main__content {
+  padding: 5px;
+}
+.main__content__heading {
+  font-size: 3.5rem;
+}
+.UI_name {
+  color: var(--secondary-color);
+}
+.main__content__info {
+  font-size: 1.6rem;
+  margin-top: 10px;
+  color: #718096;
+}
 /* Button */
 button {
   margin: 8px;
@@ -29,6 +38,38 @@ button {
   border: none;
   text-decoration: none;
   cursor: pointer;
+}
+
+.main_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button_blue {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  box-shadow: 1px 1px 5px var(--box--shadow-color);
+}
+.button_grey {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  box-shadow: 1px 1px 5px var(--box--shadow-color);
+}
+.button_blue:hover {
+  background-color: var(--primary-color);
+}
+.button_grey:hover {
+  background-color: #edf2f7;
+}
+
+@media screen and (max-width: 560px) {
+  .main__content__heading {
+    font-size: 1.8rem;
+  }
+  .main__content__info {
+    font-size: 1rem;
+  }
 }
 
 /* This File contains all the repeating code 

@@ -1,0 +1,20 @@
+@import url(../componets/alert/alert.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+html {
+  font-family: "Roboto Slab", serif;
+  background-color: var(--background-color);
+}
+
+:root {
+  --primary-color: #3bb2f6;
+  --secondary-color: #3988f0;
+  --background-color: #fff;
+  --text-color: #282828;
+
+  --box--shadow-color: gray;
+  --border-color: #e2e8f0;
+  --warning-red-color: #ef4444;
+  --success-green-color: #10b981;
+}
