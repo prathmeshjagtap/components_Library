@@ -21,21 +21,21 @@
   color: var(--background-color);
 }
 .btn-success:hover {
-  background-color: #34d399;
+  background-color: var(--success-green-color-hover);
 }
 .btn-warning {
   background-color: var(--warning-red-color);
   color: var(--background-color);
 }
 .btn-warning:hover {
-  background-color: #f87171;
+  background-color: var(--warning-red-color-hover);
 }
 .btn-dark {
   background-color: var(--text-color);
   color: var(--background-color);
 }
 .btn-dark:hover {
-  background-color: #374151;
+  background-color: var(--dark-color-hover);
 }
 
 .btn-outline-primary {
