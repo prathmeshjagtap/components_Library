@@ -104,3 +104,17 @@
 .btn-float:hover {
   background-color: var(--secondary-color);
 }
+.iframe__simple-button,
+.iframe__icon-button {
+  min-height: 175px;
+}
+.iframe__outline-button {
+  min-height: 155px;
+}
+
+.iframe__link-button {
+  min-height: 94px;
+}
+.iframe__floating-button {
+  min-height: 195px;
+}
