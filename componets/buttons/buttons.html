@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="Stylesheet" href="../../styles/style.css" />
+    <link rel="Stylesheet" href="../../styles/component.css" />
+    <link rel="Stylesheet" href="./buttons.css" />
+    <title>Buttons</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__navbar">
+        <div class="position-left">
+          <a class="header_links" href="../../index.html"
+            ><i class="far fa-grin-hearts home_icon icon"></i>Easy UI</a
+          >
+        </div>
+
+        <a class="header_links" href="#">Docs</a>
+        <a
+          class="header_links"
+          href="https://github.com/prathmeshjagtap/components_Library"
+          ><i class="fab fa-github icon"></i
+        ></a>
+        <a class="header_links" href="https://twitter.com/prathmesh_20"
+          ><i class="fab fa-twitter icon"></i
+        ></a>
+      </nav>
+    </header>
+    <div class="container">
+      <aside class="aside__left">
+        <div class="navbar">
+          <h3 class="navbar_heading">Getting Started</h3>
+          <ul class="components__list">
+            <li><a href="">Documentation</a></li>
+          </ul>
+          <h3 class="navbar_heading">Components</h3>
+          <ul class="components__list">
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="./buttons.html">Buttons</a></li>
+            <li><a href="../cards/cards.html">Cards</a></li>
+            <li><a href="../images/images.html">Images</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <h1 class="component__heading" id="button">Buttons</h1>
+        <p class="component__description">
+          The Button component allows user to take action such as submitting a
+          form, opening a dialog, canceling an action, or performing a delete
+          operation.
+        </p>
+        <div class="component_types" id="simpleButton">
+          <h2 class="component__name">Simple Buttons</h2>
+          <p class="component__description">
+            Just add btn class to create a button . You can use additional
+            classes like btn-primary, btn-warning, btn-success, btn-dark on your
+            choice.
+          </p>
+          <div class="components__example">
+            <button class="btn">Default</button>
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-dark">Dark</button>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed/UkIiypETiD7eUYDafHP2"
+              class="iframe__simple-button"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="outlineButton">
+          <h2 class="component__name">Outline Buttons</h2>
+          <p class="component__description">
+            Add outline class such as btn-outline-primary , btn-outline-warning
+            ,btn-outline-success ,btn-outline-dark to have different types of
+            outline buttons
+          </p>
+          <div class="components__example">
+            <button class="btn btn-outline-primary">Primary</button>
+            <button class="btn btn-outline-warning">Warning</button>
+            <button class="btn btn-outline-success">Success</button>
+            <button class="btn btn-outline-dark">Dark</button>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed/0cIR48FxIQUjjy3TwJZX"
+              class="iframe__outline-button"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="iconButton">
+          <h2 class="component__name">Icon Buttons</h2>
+          <p class="component__description">
+            Buttons with different icons add class btn-icon to button and class
+            icon to your icons . you can add additonal classes to buttons for
+            different colors. You can also add svgs but just give class name
+            icon.
+          </p>
+          <div class="components__example">
+            <button class="btn btn-ico btn-primary">
+              <i class="fas fa-cart-plus icon"></i>Add to Cart
+            </button>
+            <button class="btn btn-icon btn-warning">
+              <i class="fas fa-save icon"></i>Delete
+            </button>
+            <button class="btn btn-icon btn-success">
+              <i class="fas fa-save icon"></i>Save
+            </button>
+
+            <button class="btn btn-icon btn-dark">
+              <i class="fas fa-cog icon"></i>Settings
+            </button>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed/URwEnX7r4uUmNLzFHXZQ"
+              class="iframe__icon-button"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="linkButton">
+          <h2 class="component__name">Link Buttons</h2>
+          <p class="component__description">
+            Link Buttons are used to link to other parts of page you can use
+            this using btn and btn-link class
+          </p>
+          <div class="components__example">
+            <a class="btn btn-link" href="link">Default</a>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed/nmmEofX1CGxNb9iRjqim"
+              class="iframe__link-button"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="floatingButton">
+          <h2 class="component__name">Floating Buttons</h2>
+          <p class="component__description"></p>
+          <div class="components__example">
+            <button class="btn-float">
+              <i class="fas fa-plus fa-2x"></i>
+            </button>
+            <button class="btn-float">
+              <i class="fas fa-heart fa-2x"></i>
+            </button>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed/8lVsb10pF2hnoy9hfCoI"
+              class="iframe__floating-button"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <footer class="footer">
+          <a href="../badge/badge.html"
+            ><i class="fas fa-arrow-circle-left"></i>Badge</a
+          >
+          <a href="../cards/cards.html"
+            >Cards<i class="fas fa-arrow-circle-right"></i
+          ></a>
+        </footer>
+      </main>
+      <aside class="aside__right">
+        <h3 class="jumptopage_heading">On this Page</h3>
+        <ul class="jumptopageList">
+          <li><a href="#button">Button Info</a></li>
+          <li><a href="#simpleButton">Simple Buttons</a></li>
+          <li><a href="#outlineButton">Outline Buttons</a></li>
+          <li><a href="#iconButton">Icon Buttons</a></li>
+          <li><a href="#linkButton">Link Buttons</a></li>
+          <li><a href="#floatingButton">Floating Button</a></li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>
