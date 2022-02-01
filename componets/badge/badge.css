@@ -1,0 +1,52 @@
+@import url(../avatar/avatar.css);
+
+.badge__container {
+  position: relative;
+  margin: 1rem;
+}
+.badge {
+  position: absolute;
+  width: 0.93rem;
+  height: 0.93rem;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  border: 2px solid var(--background-color);
+}
+.top-left {
+  top: 0.93rem;
+  left: 18px;
+}
+.top-right {
+  top: 0.93rem;
+  right: 1.125rem;
+}
+.bottom-right {
+  bottom: 1.25rem;
+  right: 1.125rem;
+}
+.bottom-left {
+  bottom: 1.25rem;
+  left: 0.93rem;
+}
+.online {
+  background-color: var(--success-green-color);
+}
+.offline {
+  background-color: var(--warning-red-color);
+}
+.dnd {
+  background-color: var(--box--shadow-color);
+}
+
+.badge__count {
+  position: absolute;
+  padding: 0 4px;
+  min-width: 1rem;
+  min-height: 1rem;
+  background-color: var(--warning-red-color);
+  color: var(--background-color);
+  border-radius: 50%;
+  border: 2px solid var(--background-color);
+  bottom: 1.25rem;
+  right: 1.125rem;
+}
