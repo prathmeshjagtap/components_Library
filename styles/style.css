@@ -205,6 +205,7 @@ main {
 
 /* Right side navigation */
 .aside__right {
+  margin-top: 3rem;
   position: sticky;
   grid-area: asideright;
   top: 6rem;
