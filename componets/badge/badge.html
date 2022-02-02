@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="Stylesheet" href="../../styles/style.css" />
+    <link rel="Stylesheet" href="../../styles/component.css" />
+    <link rel="Stylesheet" href="./badge.css" />
+    <title>Badges</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__navbar">
+        <div class="position-left">
+          <a class="header_links" href="../../index.html"
+            ><i class="far fa-grin-hearts home_icon icon"></i>Easy UI</a
+          >
+        </div>
+
+        <a class="header_links" href="#">Docs</a>
+        <a
+          class="header_links"
+          href="https://github.com/prathmeshjagtap/components_Library"
+          ><i class="fab fa-github icon"></i
+        ></a>
+        <a class="header_links" href="https://twitter.com/prathmesh_20"
+          ><i class="fab fa-twitter icon"></i
+        ></a>
+      </nav>
+    </header>
+    <div class="container">
+      <aside class="aside__left">
+        <div class="navbar">
+          <h3 class="navbar_heading">Getting Started</h3>
+          <ul class="components__list">
+            <li><a href="">Installation</a></li>
+          </ul>
+          <h3 class="navbar_heading">Components</h3>
+          <ul class="components__list">
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="./badge.html">Badge</a></li>
+            <li><a href="../buttons/buttons.html">Buttons</a></li>
+            <li><a href="../cards/cards.html">Cards</a></li>
+            <li><a href="../images/images.html">Images</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <h1 class="component__heading" id="badges">Badges</h1>
+        <p class="component__description">
+          Badge are used to highlight an item's status such as online / offline
+          status , display numbers. Badges are small circles, positioned either
+          at top-right or bottom-right of the parent component.
+        </p>
+        <div class="component_types" id="avatarBadges">
+          <h2 class="component__name">Badges on Avatar</h2>
+          <p class="component__description">
+            Badges on avatar can be used to show online offline dnd status of
+            the users, use class badge to form a badge and additionally you can
+            use online offline and dnd classes to show the status
+          </p>
+          <div class="components__example">
+            <div class="badge__container">
+              <img class="avatar s" src="../../assets/4.jpg" href="avatar1" />
+              <div class="badge bottom-right online"></div>
+            </div>
+            <div class="badge__container">
+              <img class="avatar s" src="../../assets/4.jpg" href="avatar1" />
+              <div class="badge bottom-right offline"></div>
+            </div>
+            <div class="badge__container">
+              <img class="avatar s" src="../../assets/4.jpg" href="avatar1" />
+              <div class="badge bottom-right dnd"></div>
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2509%2509%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520s%2522%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%2520href%253D%2522avatar1%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bottom-right%2520online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520s%2522%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%2520href%253D%2522avatar1%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bottom-right%2520offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520s%2522%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%2520href%253D%2522avatar1%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bottom-right%2520dnd%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="min-height: 299px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="positionBadges">
+          <h2 class="component__name">Badges on Different Positions</h2>
+          <p class="component__description">
+            Badges can be placed on different positions by using classes such as
+            top-left , top-right , bottom-right , bottom-left.
+          </p>
+          <div class="components__example">
+            <div class="badge__container">
+              <img class="avatar s" src="../../assets/4.jpg" href="avatar1" />
+              <div class="badge bottom-right online"></div>
+            </div>
+            <div class="badge__container">
+              <img class="avatar s" src="../../assets/4.jpg" href="avatar1" />
+              <div class="badge bottom-left"></div>
+            </div>
+            <div class="badge__container">
+              <img class="avatar s" src="../../assets/4.jpg" href="avatar1" />
+              <div class="badge top-left offline"></div>
+            </div>
+            <div class="badge__container">
+              <img class="avatar s" src="../../assets/4.jpg" href="avatar1" />
+              <div class="badge top-right dnd"></div>
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520s%2522%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%2520href%253D%2522avatar1%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bottom-right%2520online%2522%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520s%2522%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%2520href%253D%2522avatar1%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bottom-left%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520s%2522%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%2520href%253D%2522avatar1%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520top-left%2520offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520s%2522%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%2520href%253D%2522avatar1%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520top-right%2520dnd%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="min-height: 379px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="iconBadges">
+          <h2 class="component__name">Icon Badges</h2>
+          <p class="component__description">
+            You can add badges on Icons use class badge_count to show the count
+            of notifications Imp : you cannot use postion classes for the icons
+            it will be added soon
+          </p>
+          <div class="components__example">
+            <div class="badge__container">
+              <i class="fas fa-cart-plus fa-2x"></i>
+              <div class="badge__count">2</div>
+            </div>
+            <div class="badge__container">
+              <i class="far fa-envelope fa-2x"></i>
+              <div class="badge__count">8+</div>
+            </div>
+            <div class="badge__container">
+              <i class="far fa-heart fa-2x"></i>
+              <div class="badge__count">10</div>
+            </div>
+            <div class="badge__container">
+              <i class="far fa-bell fa-2x"></i>
+              <div class="badge__count">70+</div>
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2509%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__count%2522%253E2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-envelope%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__count%2522%253E8%252B%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__count%2522%253E10%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-bell%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__count%2522%253E70%252B%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="min-height: 379px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <a href="../alert/alert.html"
+            ><i class="fas fa-arrow-circle-left"></i>Alert</a
+          >
+          <a href="../buttons/buttons.html"
+            >Button<i class="fas fa-arrow-circle-right"></i
+          ></a>
+        </footer>
+      </main>
+      <aside class="aside__right">
+        <h3 class="jumptopage_heading">On this Page</h3>
+        <ul class="jumptopageList">
+          <li><a href="#badges">Badges Info</a></li>
+          <li><a href="#avatarBadges"> Avatar Badges </a></li>
+          <li><a href="#positionBadges">Badges on Different Positions</a></li>
+          <li><a href="#iconBadges">Icon Badges</a></li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>
