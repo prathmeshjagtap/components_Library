@@ -119,8 +119,7 @@
           </div>
           <div class="component_code">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2509%253Cinput%2520placeholder%253D%2522Small%2520Input%2522%2520class%253D%2522input%2520input-s%2522%2520%252F%253E%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Medium%2520Input%2522%2520class%253D%2522input%2520input-m%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Large%2520Input%2522%2520class%253D%2522input%2520input-l%2522%2520%252F%253E"
-              style="min-height: 118px"
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%253Cinput%2520placeholder%253D%2522Extra%2520Small%2520Input%2520Input%2522%2520class%253D%2522input%2520input-xs%2522%252F%253E%2520%2520%250A%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Small%2520Input%2522%2520class%253D%2522input%2520input-s%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Medium%2520Input%2522%2520class%253D%2522input%2520input-m%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Large%2520Input%2522%2520class%253D%2522input%2520input-l%2522%2520%252F%253E"
               sandbox="allow-scripts allow-same-origin"
             >
             </iframe>
@@ -273,16 +272,16 @@
           </p>
           <div class="components__example">
             <div class="input__checkbox">
-              <input id="Blue" type="checkbox" />
-              <label for="Blue">Blue </label>
+              <input id="checkbox1" type="checkbox" name="checkbox1" />
+              <label for="checkbox1">Blue </label>
             </div>
             <div class="input__checkbox">
-              <input id="Green" type="checkbox" />
-              <label for="Green">Green </label>
+              <input id="checkbox1" type="checkbox" name="checkbox1" />
+              <label for="checkbox1">Green </label>
             </div>
             <div class="input__checkbox">
-              <input id="yellow" type="checkbox" disabled />
-              <label for="yellow">yellow </label>
+              <input id="checkbox1" type="checkbox" disabled />
+              <label for="checkbox1">yellow </label>
             </div>
           </div>
           <div class="component_code">
@@ -301,16 +300,16 @@
           </p>
           <div class="components__example">
             <div class="input__radio">
-              <input id="Blue" type="radio" />
-              <label for="Blue">Blue </label>
+              <input id="radio1" type="radio" name="radio1" />
+              <label for="radio1">Blue </label>
             </div>
             <div class="input__radio">
-              <input id="Green" type="radio" />
-              <label for="Green">Green </label>
+              <input id="radio1" type="radio" name="radio1" />
+              <label for="radio1">Green </label>
             </div>
             <div class="input__radio">
-              <input id="yellow" type="radio" disabled />
-              <label for="yellow">yellow </label>
+              <input id="radio1" type="radio" disabled />
+              <label for="radio1">yellow </label>
             </div>
           </div>
           <div class="component_code">
@@ -352,19 +351,19 @@
               <h2>Registration</h2>
               <div class="input__box">
                 <label for="Email">Email</label>
-                <input id="Email" class="input" />
+                <input id="Email" class="input" required />
               </div>
               <div class="input__box">
                 <label for="Username">Username </label>
-                <input id="Username" class="input" />
+                <input id="Username" class="input" required />
               </div>
               <div class="input__box">
                 <label for="Password">Password</label>
-                <input id="Password" class="input" />
+                <input id="Password" class="input" required />
               </div>
               <div class="input__box">
                 <label for="ConfirmPassword">Confirm Password </label>
-                <input id="ConfirmPassword" class="input" />
+                <input id="ConfirmPassword" class="input" required />
               </div>
               <input type="submit" value="Submit" class="btn btn-primary" />
             </form>
