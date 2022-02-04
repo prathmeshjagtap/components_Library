@@ -1,0 +1,73 @@
+.input {
+  width: 80%;
+  padding: 8px;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid var(--text-color);
+}
+.input-xs {
+  padding: 2px;
+}
+.input-s {
+  padding: 4px;
+}
+.input-m {
+  padding: 8px;
+}
+.input-l {
+  padding: 12px;
+}
+.input__box {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+.input__primary {
+  color: var(--primary-color);
+}
+.input__primary input {
+  border: 2px solid var(--primary-color);
+}
+.input__error {
+  color: var(--warning-red-color);
+}
+.input__error input {
+  border: 2px solid var(--warning-red-color);
+}
+.input__success {
+  color: var(--success-green-color);
+}
+.input__success input {
+  border: 2px solid var(--success-green-color);
+}
+.input__message {
+  font-size: 0.8rem;
+}
+
+.input__checkbox,
+.input__radio {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.input__textarea {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.input__textarea textarea {
+  min-height: 6rem;
+  min-width: 8rem;
+}
+.form {
+  background-color: var(--text-color);
+  border-radius: 4px;
+  width: 80%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
+  color: var(--background-color);
+}

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="../../styles/style.css" />
+    <link rel="stylesheet" href="../../styles/component.css" />
+    <title>Input</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav__logo">
+        <a class="header_links" href="../../index.html"
+          ><i class="far fa-grin-hearts home_icon header__icon"></i>Easy UI</a
+        >
+      </div>
+      <div class="nav__links">
+        <a class="header_links" href="#">Docs</a>
+        <a
+          class="header_links"
+          href="https://github.com/prathmeshjagtap/components_Library"
+          ><i class="fab fa-github header__icon"></i
+        ></a>
+        <a class="header_links" href="https://twitter.com/prathmesh_20"
+          ><i class="fab fa-twitter header__icon"></i
+        ></a>
+      </div>
+      <div class="navigation__properties">
+        <a class="dark__mode" href="#"
+          ><i class="fas fa-moon header__icon"></i
+        ></a>
+        <input
+          type="checkbox"
+          id="navigation__toggle"
+          class="navigation__toggle"
+        />
+        <label for="navigation__toggle" class="toggles">
+          <i class="fas fa-bars header__icon"></i>
+        </label>
+        <nav class="navbar__mobile">
+          <h3 class="navbar__mobile__heading">Getting Started</h3>
+          <ul class="navigation__list">
+            <li><a href="">Installation</a></li>
+          </ul>
+          <h3 class="navbar__mobile__heading">Components</h3>
+          <ul class="navigation__list">
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="./alert.html">Alert</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="../buttons/buttons.html">Buttons</a></li>
+            <li><a href="../cards/cards.html">Cards</a></li>
+            <li><a href="../images/images.html">Images</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+          </ul>
+        </nav>
+      </div>
+    </nav>
+    <div class="container">
+      <aside class="aside__left">
+        <div class="navbar">
+          <h3 class="navbar_heading">Getting Started</h3>
+          <ul class="components__list">
+            <li><a href="">Installation</a></li>
+          </ul>
+          <h3 class="navbar_heading">Components</h3>
+          <ul class="components__list">
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="../buttons/buttons.html">Buttons</a></li>
+            <li><a href="../cards/cards.html">Cards</a></li>
+            <li><a href="../images/images.html">Images</a></li>
+            <li><a href="./input.html">Input</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <h1 class="component__heading" id="input">Input</h1>
+        <p class="component__description">
+          Inputs are used to get the user information and to store that data.
+          Inputs can be used in forms during signin and in many other places.
+        </p>
+        <div class="component_types" id="basicInput">
+          <h2 class="component__name">Basic Input</h2>
+          <p class="component__description">
+            Use class input to form a basic input
+          </p>
+          <div class="components__example">
+            <input placeholder="Basic Input" class="input" />
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2520%253Cinput%2520placeholder%253D%2522Basic%2520Input%2522%2520class%253D%2522input%2522%2520%252F%253E%2520%2520"
+              style="min-height: 77px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="sizeInput">
+          <h2 class="component__name">Input with Different Size</h2>
+          <p class="component__description">
+            use class input-s, input-m , input-l for Different Sizes
+          </p>
+          <div class="components__example">
+            <input
+              placeholder="Extra Small Input Input"
+              class="input input-xs"
+            />
+            <input placeholder="Small Input" class="input input-s" />
+            <input placeholder="Medium Input" class="input input-m" />
+            <input placeholder="Large Input" class="input input-l" />
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2509%253Cinput%2520placeholder%253D%2522Small%2520Input%2522%2520class%253D%2522input%2520input-s%2522%2520%252F%253E%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Medium%2520Input%2522%2520class%253D%2522input%2520input-m%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Large%2520Input%2522%2520class%253D%2522input%2520input-l%2522%2520%252F%253E"
+              style="min-height: 118px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="labeledInput">
+          <h2 class="component__name">Labeled Inputs</h2>
+          <p class="component__description">
+            Inputs with Label of your choice use class input__box and class
+            input inside input for labeled inputs
+          </p>
+          <div class="components__example">
+            <div class="input__box">
+              <label for="username">Username</label>
+              <input
+                class="input"
+                id="username"
+                placeholder="Enter your Username"
+              />
+            </div>
+            <div class="input__box">
+              <label for="Email">Email</label>
+              <input class="input" id="Email" placeholder="Enter your Email" />
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522input__box%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520id%253D%2522username%2522%2520placeholder%253D%2522Enter%2520your%2520Username%2522%252F%253E%250A%253C%252Fdiv%253E"
+              style="min-height: 138px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="customisedinputs">
+          <h2 class="component__name">Error Success Inputs</h2>
+          <p class="component__description">
+            Primary , Success , And Error Inputs. Use class input__primary ,
+            input__error,input__success to use this inputs
+          </p>
+          <div class="components__example">
+            <div class="input__box input__primary">
+              <label for="username">Primary Input</label>
+              <input
+                class="input"
+                id="username"
+                placeholder="Enter your Username"
+              />
+            </div>
+            <div class="input__box input__error">
+              <label for="Email">Error Input</label>
+              <input class="input" id="Email" placeholder="Enter your Email" />
+            </div>
+            <div class="input__box input__success">
+              <label for="username">Success Input</label>
+              <input
+                class="input"
+                id="username"
+                placeholder="Enter your Username"
+              />
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__box%2520input__primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EPrimary%2520Input%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520your%2520Username%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__box%2520input__error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Email%2522%253EError%2520Input%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520id%253D%2522Email%2522%2520placeholder%253D%2522Enter%2520your%2520Email%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__box%2520input__success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253ESuccess%2520Input%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520your%2520Username%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="min-height: 460px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="messageInput">
+          <h2 class="component__name">Input With Messsage</h2>
+          <p class="component__description">
+            Use input__message class on your Message to show success , Errro
+            Message to user
+          </p>
+          <div class="components__example">
+            <div class="input__box input__success">
+              <label for="Email">Email</label>
+              <input class="input" id="Email" placeholder="Enter your Email" />
+              <p class="input__message">Correct Email.</p>
+            </div>
+            <div class="input__box input__error">
+              <label for="password">Success Input</label>
+              <input
+                class="input"
+                id="username"
+                placeholder="Enter your Username"
+              />
+              <p class="input__message">Wrong password.</p>
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522input__box%2520input__success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Email%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520id%253D%2522Email%2522%2520placeholder%253D%2522Enter%2520your%2520Email%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522input__message%2522%253ECorrect%2520Email.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__box%2520input__error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253ESuccess%2520Input%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520your%2520Username%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522input__message%2522%253EWrong%2520password.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="min-height: 339px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="optionsInput">
+          <h2 class="component__name">Input With options</h2>
+          <p class="component__description">
+            Input with Options for user to choose from
+          </p>
+          <div class="components__example">
+            <div class="input__box">
+              <label for="browsers">Choose Browser </label>
+              <input list="browsers" class="input" />
+              <datalist id="browsers">
+                <option value="Internet Explorer"></option>
+                <option value="Firefox"></option>
+                <option value="Google Chrome"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+              </datalist>
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2509%2509%253Cdiv%2520class%253D%2522input__box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522browsers%2522%253EChoose%2520Browser%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520list%253D%2522browsers%2522%2520class%253D%2522input%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdatalist%2520id%253D%2522browsers%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Internet%2520Explorer%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Firefox%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Google%2520Chrome%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Opera%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Safari%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdatalist%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="min-height: 279px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="dateTimeInput">
+          <h2 class="component__name">Date and Time Input</h2>
+          <p class="component__description">Inputs with date and time.</p>
+          <div class="components__example">
+            <input type="date" class="input" />
+            <input type="time" class="input" />
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2509%253Cinput%2520type%253D%2522date%2522%2520class%253D%2522input%2522%2520%252F%253E%2509%2509%250A%2520%2509%253Cinput%2520type%253D%2522time%2522%2520class%253D%2522input%2522%2520%252F%253E"
+              style="min-height: 98px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="checkBoxInput">
+          <h2 class="component__name">CheckBox Input</h2>
+          <p class="component__description">
+            Use class input__checkbox to use checkbox inputs
+          </p>
+          <div class="components__example">
+            <div class="input__checkbox">
+              <input id="Blue" type="checkbox" />
+              <label for="Blue">Blue </label>
+            </div>
+            <div class="input__checkbox">
+              <input id="Green" type="checkbox" />
+              <label for="Green">Green </label>
+            </div>
+            <div class="input__checkbox">
+              <input id="yellow" type="checkbox" disabled />
+              <label for="yellow">yellow </label>
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522Blue%2522%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Blue%2522%253EBlue%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522Green%2522%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Green%2522%253EGreen%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522yellow%2522%2520type%253D%2522checkbox%2522%2520disabled%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522yellow%2522%253Eyellow%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+              style="min-height: 339px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="radioInput">
+          <h2 class="component__name">Radio Input</h2>
+          <p class="component__description">
+            Use class input__radio to use Radio inputs
+          </p>
+          <div class="components__example">
+            <div class="input__radio">
+              <input id="Blue" type="radio" />
+              <label for="Blue">Blue </label>
+            </div>
+            <div class="input__radio">
+              <input id="Green" type="radio" />
+              <label for="Green">Green </label>
+            </div>
+            <div class="input__radio">
+              <input id="yellow" type="radio" disabled />
+              <label for="yellow">yellow </label>
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522input__radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522Blue%2522%2520type%253D%2522radio%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Blue%2522%253EBlue%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522Green%2522%2520type%253D%2522radio%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Green%2522%253EGreen%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522yellow%2522%2520type%253D%2522radio%2522%2520disabled%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522yellow%2522%253Eyellow%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="min-height: 299px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="textArea">
+          <h2 class="component__name">Text Area</h2>
+          <p class="component__description">
+            Use class input__textarea to use textarea
+          </p>
+          <div class="components__example">
+            <div class="input__textarea">
+              <label for="review">Your Review of This site </label>
+              <textarea id="review"></textarea>
+            </div>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__textarea%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522review%2522%253EYour%2520Review%2520of%2520This%2520site%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520id%253D%2522review%2522%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="min-height: 138px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="component_types" id="sampleForm">
+          <h2 class="component__name">Sample Form</h2>
+          <p class="component__description">
+            Sample Registration Form Use class "form" to use this form
+          </p>
+          <div class="components__example">
+            <form action="./input.html" class="form">
+              <h2>Registration</h2>
+              <div class="input__box">
+                <label for="Email">Email</label>
+                <input id="Email" class="input" />
+              </div>
+              <div class="input__box">
+                <label for="Username">Username </label>
+                <input id="Username" class="input" />
+              </div>
+              <div class="input__box">
+                <label for="Password">Password</label>
+                <input id="Password" class="input" />
+              </div>
+              <div class="input__box">
+                <label for="ConfirmPassword">Confirm Password </label>
+                <input id="ConfirmPassword" class="input" />
+              </div>
+              <input type="submit" value="Submit" class="btn btn-primary" />
+            </form>
+          </div>
+          <div class="component_code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%253Cform%2520action%253D%2522.%252Finput.html%2522%2520class%253D%2522form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ERegistration%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Email%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522Email%2522%2520class%253D%2522input%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Username%2522%253EUsername%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522Username%2522%2520class%253D%2522input%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522Password%2522%2520class%253D%2522input%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522ConfirmPassword%2522%253EConfirm%2520Password%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522ConfirmPassword%2522%2520class%253D%2522input%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522submit%2522%2520value%253D%2522Submit%2522%2520class%253D%2522btn%2520btn-primary%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E"
+              style="min-height: 460px"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <a href="../Images/images.html"
+            ><i class="fas fa-arrow-circle-left"></i>Images</a
+          >
+          <a href="#"
+            >Text Utilities<i class="fas fa-arrow-circle-right"></i
+          ></a>
+        </footer>
+      </main>
+      <aside class="aside__right">
+        <h3 class="jumptopage_heading">On this Page</h3>
+        <ul class="jumptopageList">
+          <li><a href="#input">Input Info</a></li>
+          <li><a href="#basicInput">Basic Input</a></li>
+          <li><a href="#sizeInput">Different Size Inputs</a></li>
+          <li><a href="#labeledInput">Labeled Inputs</a></li>
+          <li><a href="#customisedinputs">Error Success Inputs</a></li>
+          <li><a href="#messageInput">Message Inputs</a></li>
+          <li><a href="#optionsInput">Input With Different Options</a></li>
+          <li><a href="#dateTimeInput">Date and Time Input</a></li>
+          <li><a href="#checkBoxInput">CheckBox Input</a></li>
+          <li><a href="#radioInput">Radio Input</a></li>
+          <li><a href="#textArea">Textarea </a></li>
+          <li><a href="#sampleForm">Sample Form </a></li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>
