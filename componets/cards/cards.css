@@ -8,8 +8,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: 1rem;
-  max-width: 23rem;
+  width: 18rem;
   border: 2px solid var(--border-color);
 }
 .card__badge {
@@ -92,7 +91,7 @@
   position: absolute;
   color: var(--background-color);
   left: 0;
-  top: 9rem;
+  top: 3rem;
 }
 
 .card__shadow {
