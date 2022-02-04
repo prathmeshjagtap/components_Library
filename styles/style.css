@@ -79,41 +79,103 @@
 
 /* Header navbar   */
 
-.header {
+.navigation {
+  display: flex;
   position: fixed;
   top: 0;
   width: 100%;
   top: 0px;
   background-color: var(--primary-color);
   z-index: 99999;
+  justify-content: flex-end;
+  padding: 6px;
 }
-.header:nth-child(0) {
-  align-self: flex-start;
+.nav__logo {
+  flex-grow: 1;
+  align-self: center;
+  margin-left: 4rem;
+  margin: 10px;
+}
+.nav__links {
+  display: flex;
+  gap: 40px;
+  margin: 10px;
 }
 
-.header__navbar {
-  display: flex;
-  flex-wrap: wrap;
-}
 .header_links {
   font-size: 1.5rem;
-  padding: 6px;
-  margin: 10px;
   text-decoration: none;
   color: var(--background-color);
 }
 .header_links:hover {
   color: var(--secondary-color);
 }
-.icon {
-  align-self: center;
-  margin: 0 7px;
+.header__icon {
+  margin: 0 10px;
+}
+.dark__mode {
+  color: var(--background-color);
+}
+/* Mobile Version */
+
+.navigation__toggle {
+  display: none;
+}
+.toggles {
+  display: none;
+  border: 1px solid var(--border-color);
 }
 
-.position-left {
+.navigation__toggle:checked ~ nav {
+  display: block;
+}
+
+.navigation__properties {
   align-self: center;
-  flex-grow: 1;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--background-color);
   margin-left: 1rem;
+  display: flex;
+}
+.navbar__mobile {
+  position: absolute;
+  right: 0;
+  top: 4rem;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding-left: 1rem;
+  display: none;
+  z-index: 888;
+  background-color: var(--background-color);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navbar__mobile__heading {
+  color: var(--text-color);
+  padding-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.navigation__list li {
+  list-style: none;
+  margin: 10px 0;
+  width: 100%;
+}
+.navigation__list li a {
+  text-decoration: none;
+  color: var(--text-color);
+  border-radius: 5px;
+  padding: 4px 1rem 4px 2px;
+  font-size: 1rem;
+}
+
+.navigation__list li a:hover {
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--background-color);
 }
 
 /* Container  */
@@ -273,6 +335,12 @@ main {
   }
   .aside__left {
     display: none;
+  }
+  .nav__links {
+    display: none;
+  }
+  .toggles {
+    display: block;
   }
 }
 

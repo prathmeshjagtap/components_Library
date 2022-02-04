@@ -14,25 +14,53 @@
     <title>Buttons</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="header__navbar">
-        <div class="position-left">
-          <a class="header_links" href="../../index.html"
-            ><i class="far fa-grin-hearts home_icon icon"></i>Easy UI</a
-          >
-        </div>
-
+    <nav class="navigation">
+      <div class="nav__logo">
+        <a class="header_links" href="../../index.html"
+          ><i class="far fa-grin-hearts home_icon header__icon"></i>Easy UI</a
+        >
+      </div>
+      <div class="nav__links">
         <a class="header_links" href="#">Docs</a>
         <a
           class="header_links"
           href="https://github.com/prathmeshjagtap/components_Library"
-          ><i class="fab fa-github icon"></i
+          ><i class="fab fa-github header__icon"></i
         ></a>
         <a class="header_links" href="https://twitter.com/prathmesh_20"
-          ><i class="fab fa-twitter icon"></i
+          ><i class="fab fa-twitter header__icon"></i
         ></a>
-      </nav>
-    </header>
+      </div>
+      <div class="navigation__properties">
+        <a class="dark__mode" href="#"
+          ><i class="fas fa-moon header__icon"></i
+        ></a>
+        <input
+          type="checkbox"
+          id="navigation__toggle"
+          class="navigation__toggle"
+        />
+        <label for="navigation__toggle" class="toggles">
+          <i class="fas fa-bars header__icon"></i>
+        </label>
+        <nav class="navbar__mobile">
+          <h3 class="navbar__mobile__heading">Getting Started</h3>
+          <ul class="navigation__list">
+            <li><a href="">Documentation</a></li>
+          </ul>
+          <h3 class="navbar__mobile__heading">Components</h3>
+          <ul class="navigation__list">
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="./buttons.html">Buttons</a></li>
+            <li><a href="../cards/cards.html">Cards</a></li>
+            <li><a href="../images/images.html">Images</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+          </ul>
+        </nav>
+      </div>
+    </nav>
     <div class="container">
       <aside class="aside__left">
         <div class="navbar">
