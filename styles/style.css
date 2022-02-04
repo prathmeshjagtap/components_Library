@@ -260,6 +260,8 @@ main {
   margin: 1rem;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  gap: 10px;
 }
 .component_types {
   scroll-margin-top: 6rem;
