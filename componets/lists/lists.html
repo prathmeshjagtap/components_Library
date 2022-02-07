@@ -1,212 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./lists.css" />
-    <link rel="stylesheet" href="../../styles/style.css" />
-    <link rel="stylesheet" href="../../styles/component.css" />
-    <title>Lists</title>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="./lists.css" />
+		<link rel="stylesheet" href="../../styles/style.css" />
+		<link rel="stylesheet" href="../../styles/component.css" />
+		<title>Lists</title>
+	</head>
 
-  <body>
-    <nav class="navigation">
-      <div class="nav__logo">
-        <a class="header_links" href="../../index.html"
-          ><i class="far fa-grin-hearts home_icon header__icon"></i>Easy UI</a
-        >
-      </div>
-      <div class="nav__links">
-        <a class="header_links" href="#">Docs</a>
-        <a
-          class="header_links"
-          href="https://github.com/prathmeshjagtap/components_Library"
-          ><i class="fab fa-github header__icon"></i
-        ></a>
-        <a class="header_links" href="https://twitter.com/prathmesh_20"
-          ><i class="fab fa-twitter header__icon"></i
-        ></a>
-      </div>
-      <div class="navigation__properties">
-        <a class="dark__mode" href="#"
-          ><i class="fas fa-moon header__icon"></i
-        ></a>
-        <input
-          type="checkbox"
-          id="navigation__toggle"
-          class="navigation__toggle"
-        />
-        <label for="navigation__toggle" class="toggles">
-          <i class="fas fa-bars header__icon"></i>
-        </label>
-        <nav class="navbar__mobile">
-          <div class="social__links-mobile">
-            <a
-              class="social__link"
-              href="https://github.com/prathmeshjagtap/components_Library"
-              ><i class="fab fa-github header__icon"></i
-            ></a>
-            <a class="social__link" href="https://twitter.com/prathmesh_20"
-              ><i class="fab fa-twitter header__icon"></i
-            ></a>
-          </div>
-          <h3 class="navbar__mobile__heading">Getting Started</h3>
-          <ul class="navigation__list">
-            <li><a href="">Installation</a></li>
-          </ul>
-          <h3 class="navbar__mobile__heading">Components</h3>
-          <ul class="navigation__list">
-            <li><a href="../avatar/avatar.html">Avatar</a></li>
-            <li><a href="./alert.html">Alert</a></li>
-            <li><a href="../badge/badge.html">Badge</a></li>
-            <li><a href="../buttons/buttons.html">Buttons</a></li>
-            <li><a href="../cards/cards.html">Cards</a></li>
-            <li><a href="../images/images.html">Images</a></li>
-            <li><a href="../input/input.html">Input</a></li>
-            <li>
-              <a href="../text_Utilities/textUtilities.html">Text Utilities</a>
-            </li>
-            <li><a href="../lists/lists.html">Lists</a></li>
-            <li><a href="../ratings/ratings.html">Ratings</a></li>
-          </ul>
-        </nav>
-      </div>
-    </nav>
-    <div class="container">
-      <aside class="aside__left">
-        <div class="navbar">
-          <h3 class="navbar_heading">Getting Started</h3>
-          <ul class="components__list">
-            <li><a href="">Installation</a></li>
-          </ul>
-          <h3 class="navbar_heading">Components</h3>
-          <ul class="components__list">
-            <li><a href="../avatar/avatar.html">Avatar</a></li>
-            <li><a href="../alert/alert.html">Alert</a></li>
-            <li><a href="../badge/badge.html">Badge</a></li>
-            <li><a href="../buttons/buttons.html">Buttons</a></li>
-            <li><a href="../cards/cards.html">Cards</a></li>
-            <li><a href="../images/images.html">Images</a></li>
-            <li><a href="./input.html">Input</a></li>
-            <li>
-              <a href="../text_Utilities/textUtilities.html">Text Utilities</a>
-            </li>
-            <li><a href="../lists/lists.html">Lists</a></li>
-            <li><a href="../ratings/ratings.html">Ratings</a></li>
-          </ul>
-        </div>
-      </aside>
-      <main>
-        <h1 class="component__heading" id="lists">List</h1>
-        <p class="component__description">
-          List component is used to display list items. They are composed of
-          items containing primary and supplemental actions, which are
-          represented by icons and text
-        </p>
-        <div class="component_types" id="simpleList">
-          <h2 class="component__name">Simple Lists</h2>
-          <p class="component__description">
-            The most basic list group is an unordered list with list items and
-            the proper classes. Use class <code>.list__container</code> for
-            container and <code>.list__item</code>
-            for items in the list.
-          </p>
-          <div class="components__example">
-            <ul class="list__container">
-              <h2 class="list__heading">Top Wear</h2>
-              <li>T-shirts</li>
-              <li>Formal Shirts</li>
-              <li>Sweatshirts</li>
-              <li>Jackets</li>
-              <li>Suits</li>
-              <li>Balzers</li>
-            </ul>
-          </div>
-          <div class="component_code">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%253Cul%2520class%253D%2522list__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522list__heading%2522%253ETop%2520Wear%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ET-shirts%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EFormal%2520Shirts%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ESweatshirts%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EJackets%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ESuits%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EBalzers%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
-              style="min-height: 238px"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-        </div>
-        <div class="component_types" id="notificationList">
-          <h2 class="component__name">Staked Notification List</h2>
-          <p class="component__description">
-            you can use this list where you see notifications. Use class
-            <code>.list__item_notification</code> on list items and
-            <code>.list__container</code> on list container
-          </p>
-          <div class="components__example">
-            <ul class="list__container">
-              <li class="list__item_notification">
-                <div class="badge__container">
-                  <img
-                    class="avatar xs"
-                    src="../../assets/4.jpg"
-                    href="avatar1"
-                  />
-                  <div class="badge bottom-left online"></div>
-                </div>
-                <p>You have new Notification</p>
-              </li>
-              <li class="list__item_notification">
-                <div class="badge__container">
-                  <img
-                    class="avatar xs"
-                    src="../../assets/4.jpg"
-                    href="avatar1"
-                  />
-                  <div class="badge bottom-left online"></div>
-                </div>
-                <p>You have new Notification</p>
-              </li>
-              <li class="list__item_notification">
-                <div class="badge__container">
-                  <img
-                    class="avatar xs"
-                    src="../../assets/4.jpg"
-                    href="avatar1"
-                  />
-                  <div class="badge bottom-left online"></div>
-                </div>
-                <p>You have new Notification</p>
-              </li>
-            </ul>
-          </div>
-          <div class="component_code">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list__item_notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520s%2522%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%2520href%253D%2522avatar1%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bottom-left%2520online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EYou%2520have%2520new%2520Notification%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list__item_notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520s%2522%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%2520href%253D%2522avatar1%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bottom-left%2520online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EYou%2520have%2520new%2520Notification%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list__item_notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520s%2522src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%2520href%253D%2522avatar1%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bottom-left%2520online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EYou%2520have%2520new%2520Notification%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%253C%252Ful%253E"
-              style="min-height: 521px"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-        </div>
+	<body>
+		<nav class="navigation">
+			<div class="nav__logo">
+				<a class="header_links" href="../../index.html"
+					><i class="far fa-grin-hearts home_icon header__icon"></i>Easy UI</a
+				>
+			</div>
+			<div class="nav__links">
+				<a class="header_links" href="#">Docs</a>
+				<a
+					class="header_links"
+					href="https://github.com/prathmeshjagtap/components_Library"
+					><i class="fab fa-github header__icon"></i
+				></a>
+				<a class="header_links" href="https://twitter.com/prathmesh_20"
+					><i class="fab fa-twitter header__icon"></i
+				></a>
+			</div>
+			<div class="navigation__properties">
+				<a class="dark__mode" href="#"
+					><i class="fas fa-moon header__icon"></i
+				></a>
+				<input
+					type="checkbox"
+					id="navigation__toggle"
+					class="navigation__toggle"
+				/>
+				<label for="navigation__toggle" class="toggles">
+					<i class="fas fa-bars header__icon"></i>
+				</label>
+				<nav class="navbar__mobile">
+					<div class="social__links-mobile">
+						<a
+							class="social__link"
+							href="https://github.com/prathmeshjagtap/components_Library"
+							><i class="fab fa-github header__icon"></i
+						></a>
+						<a class="social__link" href="https://twitter.com/prathmesh_20"
+							><i class="fab fa-twitter header__icon"></i
+						></a>
+					</div>
+					<h3 class="navbar__mobile__heading">Getting Started</h3>
+					<ul class="navigation__list">
+						<li><a href="">Installation</a></li>
+					</ul>
+					<h3 class="navbar__mobile__heading">Components</h3>
+					<ul class="navigation__list">
+						<li><a href="../avatar/avatar.html">Avatar</a></li>
+						<li><a href="./alert.html">Alert</a></li>
+						<li><a href="../badge/badge.html">Badge</a></li>
+						<li><a href="../buttons/buttons.html">Buttons</a></li>
+						<li><a href="../cards/cards.html">Cards</a></li>
+						<li><a href="../images/images.html">Images</a></li>
+						<li><a href="../input/input.html">Input</a></li>
+						<li>
+							<a href="../text_Utilities/textUtilities.html">Text Utilities</a>
+						</li>
+						<li><a href="../lists/lists.html">Lists</a></li>
+						<li><a href="../ratings/ratings.html">Ratings</a></li>
+					</ul>
+				</nav>
+			</div>
+		</nav>
+		<div class="container">
+			<aside class="aside__left">
+				<div class="navbar">
+					<h3 class="navbar_heading">Getting Started</h3>
+					<ul class="components__list">
+						<li><a href="">Installation</a></li>
+					</ul>
+					<h3 class="navbar_heading">Components</h3>
+					<ul class="components__list">
+						<li><a href="../avatar/avatar.html">Avatar</a></li>
+						<li><a href="../alert/alert.html">Alert</a></li>
+						<li><a href="../badge/badge.html">Badge</a></li>
+						<li><a href="../buttons/buttons.html">Buttons</a></li>
+						<li><a href="../cards/cards.html">Cards</a></li>
+						<li><a href="../images/images.html">Images</a></li>
+						<li><a href="./input.html">Input</a></li>
+						<li>
+							<a href="../text_Utilities/textUtilities.html">Text Utilities</a>
+						</li>
+						<li><a href="../lists/lists.html">Lists</a></li>
+						<li><a href="../ratings/ratings.html">Ratings</a></li>
+					</ul>
+				</div>
+			</aside>
+			<main>
+				<h1 class="component__heading" id="lists">List</h1>
+				<p class="component__description">
+					List component is used to display list items. They are composed of
+					items containing primary and supplemental actions, which are
+					represented by icons and text
+				</p>
+				<div class="component_types" id="simpleList">
+					<h2 class="component__name">Simple Lists</h2>
+					<p class="component__description">
+						The most basic list group is an unordered list with list items and
+						the proper classes. Use class <code>.list__container</code> for
+						container and <code>.list__item</code>
+						for items in the list.
+					</p>
+					<div class="components__example">
+						<ul class="list__container">
+							<h2 class="list__heading">Top Wear</h2>
+							<li>T-shirts</li>
+							<li>Formal Shirts</li>
+							<li>Sweatshirts</li>
+							<li>Jackets</li>
+							<li>Suits</li>
+							<li>Balzers</li>
+						</ul>
+					</div>
+					<div class="component_code">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%253Cul%2520class%253D%2522list__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522list__heading%2522%253ETop%2520Wear%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ET-shirts%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EFormal%2520Shirts%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ESweatshirts%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EJackets%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ESuits%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EBalzers%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
+							style="min-height: 238px"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+				</div>
+				<div class="component_types" id="notificationList">
+					<h2 class="component__name">Staked Notification List</h2>
+					<p class="component__description">
+						you can use this list where you see notifications. Use class
+						<code>.list__item_notification</code> on list items and
+						<code>.list__container</code> on list container
+					</p>
+					<div class="components__example">
+						<ul class="list__container">
+							<li class="list__item_notification">
+								<div class="badge__container">
+									<img
+										class="avatar avatar-xs"
+										src="../../assets/4.jpg"
+										alt="notification"
+									/>
+									<div class="badge bottom-left online"></div>
+								</div>
+								<p>You have new Notification</p>
+							</li>
+							<li class="list__item_notification">
+								<div class="badge__container">
+									<img
+										class="avatar avatar-xs"
+										src="../../assets/4.jpg"
+										alt="notification"
+									/>
+									<div class="badge bottom-left online"></div>
+								</div>
+								<p>You have new Notification</p>
+							</li>
+							<li class="list__item_notification">
+								<div class="badge__container">
+									<img
+										class="avatar avatar-xs"
+										src="../../assets/4.jpg"
+										alt="notification"
+									/>
+									<div class="badge bottom-left online"></div>
+								</div>
+								<p>You have new Notification</p>
+							</li>
+						</ul>
+					</div>
+					<div class="component_code">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list__container%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list__item_notification%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar-xs%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522notification%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bottom-left%2520online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%253EYou%2520have%2520new%2520Notification%253C%252Fp%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list__item_notification%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar-xs%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522notification%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bottom-left%2520online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%253EYou%2520have%2520new%2520Notification%253C%252Fp%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list__item_notification%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar-xs%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252F4.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522notification%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bottom-left%2520online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%253EYou%2520have%2520new%2520Notification%253C%252Fp%253E%250A%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+				</div>
 
-        <footer class="footer">
-          <a href="../text_Utilities/textUtilities.html"
-            ><i class="fas fa-arrow-circle-left"></i>Text Utilities</a
-          >
-          <a href="../ratings/ratings.html"
-            >Ratings<i class="fas fa-arrow-circle-right"></i
-          ></a>
-        </footer>
-      </main>
-      <aside class="aside__right">
-        <h3 class="jumptopage_heading">On this Page</h3>
-        <ul class="jumptopageList">
-          <li><a href="#lists">Lists Info</a></li>
-          <li><a href="#simpleList">Simple Lists </a></li>
-          <li><a href="#notificationList">Stacked Notification List</a></li>
-        </ul>
-      </aside>
-    </div>
-  </body>
+				<footer class="footer">
+					<a href="../text_Utilities/textUtilities.html"
+						><i class="fas fa-arrow-circle-left"></i>Text Utilities</a
+					>
+					<a href="../ratings/ratings.html"
+						>Ratings<i class="fas fa-arrow-circle-right"></i
+					></a>
+				</footer>
+			</main>
+			<aside class="aside__right">
+				<h3 class="jumptopage_heading">On this Page</h3>
+				<ul class="jumptopageList">
+					<li><a href="#lists">Lists Info</a></li>
+					<li><a href="#simpleList">Simple Lists </a></li>
+					<li><a href="#notificationList">Stacked Notification List</a></li>
+				</ul>
+			</aside>
+		</div>
+	</body>
 </html>
