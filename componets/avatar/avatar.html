@@ -1,213 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link rel="Stylesheet" href="../../styles/style.css" />
-    <link rel="Stylesheet" href="../../styles/component.css" />
-    <link rel="Stylesheet" href="./avatar.css" />
-    <title>Avatar</title>
-  </head>
-  <body>
-    <nav class="navigation">
-      <div class="nav__logo">
-        <a class="header_links" href="../../index.html"
-          ><i class="far fa-grin-hearts home_icon header__icon"></i>Easy UI</a
-        >
-      </div>
-      <div class="nav__links">
-        <a class="header_links" href="#">Docs</a>
-        <a
-          class="header_links"
-          href="https://github.com/prathmeshjagtap/components_Library"
-          ><i class="fab fa-github header__icon"></i
-        ></a>
-        <a class="header_links" href="https://twitter.com/prathmesh_20"
-          ><i class="fab fa-twitter header__icon"></i
-        ></a>
-      </div>
-      <div class="navigation__properties">
-        <a class="dark__mode" href="#"
-          ><i class="fas fa-moon header__icon"></i
-        ></a>
-        <input
-          type="checkbox"
-          id="navigation__toggle"
-          class="navigation__toggle"
-        />
-        <label for="navigation__toggle" class="toggles">
-          <i class="fas fa-bars header__icon"></i>
-        </label>
-        <nav class="navbar__mobile">
-          <div class="social__links-mobile">
-            <a
-              class="social__link"
-              href="https://github.com/prathmeshjagtap/components_Library"
-              ><i class="fab fa-github header__icon"></i
-            ></a>
-            <a class="social__link" href="https://twitter.com/prathmesh_20"
-              ><i class="fab fa-twitter header__icon"></i
-            ></a>
-          </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+		<link rel="Stylesheet" href="../../styles/style.css" />
+		<link rel="Stylesheet" href="../../styles/component.css" />
+		<link rel="Stylesheet" href="./avatar.css" />
+		<title>Avatar</title>
+	</head>
 
-          <h3 class="navbar__mobile__heading">Getting Started</h3>
-          <ul class="navigation__list">
-            <li><a href="">Documentation</a></li>
-          </ul>
-          <h3 class="navbar__mobile__heading">Components</h3>
-          <ul class="navigation__list">
-            <li><a href="./avatar.html">Avatar</a></li>
-            <li><a href="../alert/alert.html">Alert</a></li>
-            <li><a href="../badge/badge.html">Badge</a></li>
-            <li><a href="../buttons/buttons.html">Buttons</a></li>
-            <li><a href="../cards/cards.html">Cards</a></li>
-            <li><a href="../images/images.html">Images</a></li>
-            <li><a href="../input/input.html">Input</a></li>
-          </ul>
-        </nav>
-      </div>
-    </nav>
-    <div class="container">
-      <aside class="aside__left">
-        <div class="navbar">
-          <h3 class="navbar_heading">Getting Started</h3>
-          <ul class="components__list">
-            <li><a href="">Documentation</a></li>
-          </ul>
-          <h3 class="navbar_heading">Components</h3>
-          <ul class="components__list">
-            <li><a href="./avatar.html">Avatar</a></li>
-            <li><a href="../alert/alert.html">Alert</a></li>
-            <li><a href="../badge/badge.html">Badge</a></li>
-            <li><a href="../buttons/buttons.html">Buttons</a></li>
-            <li><a href="../cards/cards.html">Cards</a></li>
-            <li><a href="../images/images.html">Images</a></li>
-            <li><a href="../input/input.html">Input</a></li>
-          </ul>
-        </div>
-      </aside>
-      <main>
-        <h1 class="component__heading" id="avatar">Avatars</h1>
-        <p class="component__description">
-          The Avatar component is used to represent a user, and displays the
-          profile picture, initials.
-        </p>
-        <div class="component_types" id="roundAvatar">
-          <h2 class="component__name">Round Avatars</h2>
-          <p class="component__description">
-            Round avatar are basically used as Profile Pictures. You can use
-            class avatar to use them
-          </p>
-          <div class="components__example">
-            <img class="avatar" src="../../assets/images.png" href="avatar1" />
-            <img class="avatar" src="../../assets/1.jpg" href="avatar1" />
-            <img
-              class="avatar"
-              src="../../assets/images (1).png"
-              href="avatar1"
-            />
-            <img
-              class="avatar"
-              src="../../assets/download.jpg"
-              href="avatar1"
-            />
-            <img class="avatar" src="../../assets/3.jpg" href="avatar1" />
-          </div>
-          <div class="component_code">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522your%2520image%2520src%2522%2520href%253D%2522avatar1%2522%2520%252F%253E%2520%2520%2520%2520"
-              style="min-height: 77px"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-        </div>
-        <div class="component_types" id="sizeAvatars">
-          <h2 class="component__name">Sizes in Avatars</h2>
-          <p class="component__description">
-            The Avatar component comes in 5 sizes. you can use class xs, s, m,
-            l, xl to have different sizes of avatars
-          </p>
-          <div class="components__example">
-            <img
-              class="avatar xs"
-              src="../../assets/images.png"
-              href="avatar1"
-            />
-            <img
-              class="avatar s"
-              src="../../assets/images.png"
-              href="avatar1"
-            />
-            <img
-              class="avatar m"
-              src="../../assets/images.png"
-              href="avatar1"
-            />
-            <img
-              class="avatar l"
-              src="../../assets/images.png"
-              href="avatar1"
-            />
-            <img
-              class="avatar xl"
-              src="../../assets/images.png"
-              href="avatar1"
-            />
-          </div>
-          <div class="component_code">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520xs%2522%2520src%253D%2522your%2520source%2520code%2522%2520href%253D%2522avatar1%2520%252F%253E%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520s%2522%2520%2520src%253D%2522your%2520source%2520code%2522%2520href%253D%2522avatar1%2520%252F%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520m%2522%2520%2520src%253D%2522your%2520source%2520code%2522%2520href%253D%2522avatar1%2520%252F%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520l%2522%2520%2520src%253D%2522your%2520source%2520code%2522%2520href%253D%2522avatar1%2520%252F%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520xl%2522%2520src%253D%2522your%2520source%2520code%2522%2520href%253D%2522avatar1%2520%252F%253E"
-              style="min-height: 158px"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-        </div>
-        <div class="component_types" id="SquareAvatars">
-          <h2 class="component__name">Square Avatars</h2>
-          <p class="component__description">
-            Use class avatar-square to have square avatar you can also used
-            different Sizes with it
-          </p>
-          <div class="components__example">
-            <img class="avatar-square xs" src="../../assets/1.jpg" href="" />
-            <img class="avatar-square s" src="../../assets/1.jpg" href="" />
-            <img class="avatar-square m" src="../../assets/1.jpg" href="" />
-            <img class="avatar-square l" src="../../assets/1.jpg" href="" />
-            <img class="avatar-square xl" src="../../assets/1.jpg" href="" />
-          </div>
-          <div class="component_code">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2509%253Cimg%2520class%253D%2522avatar-square%2520xs%2522%2520src%253D%2522your%2520img%2520src%2522%2520href%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-square%2520s%2522%2520%2520src%253D%2522your%2520img%2520src%2522%2520href%253D%2522%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-square%2520m%2522%2520%2520src%253D%2522your%2520img%2520src%2522%2520href%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-square%2520l%2522%2520%2520src%253D%2522your%2520img%2520src%2522%2520href%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-square%2520xl%2522%2520src%253D%2522your%2520img%2520src%2522%2520href%253D%2522%2522%2520%252F%253E"
-              style="min-height: 158px"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-        </div>
+	<body>
+		<nav class="navigation">
+			<div class="nav__logo">
+				<a class="header_links" href="../../index.html"
+					><i class="far fa-grin-hearts home_icon header__icon"></i>Easy UI</a
+				>
+			</div>
+			<div class="nav__links">
+				<a class="header_links" href="#">Docs</a>
+				<a
+					class="header_links"
+					href="https://github.com/prathmeshjagtap/components_Library"
+					><i class="fab fa-github header__icon"></i
+				></a>
+				<a class="header_links" href="https://twitter.com/prathmesh_20"
+					><i class="fab fa-twitter header__icon"></i
+				></a>
+			</div>
+			<div class="navigation__properties">
+				<a class="dark__mode" href="#"
+					><i class="fas fa-moon header__icon"></i
+				></a>
+				<input
+					type="checkbox"
+					id="navigation__toggle"
+					class="navigation__toggle"
+				/>
+				<label for="navigation__toggle" class="toggles">
+					<i class="fas fa-bars header__icon"></i>
+				</label>
+				<nav class="navbar__mobile">
+					<div class="social__links-mobile">
+						<a
+							class="social__link"
+							href="https://github.com/prathmeshjagtap/components_Library"
+							><i class="fab fa-github header__icon"></i
+						></a>
+						<a class="social__link" href="https://twitter.com/prathmesh_20"
+							><i class="fab fa-twitter header__icon"></i
+						></a>
+					</div>
 
-        <footer class="footer">
-          <a href="#"><i class="fas fa-arrow-circle-left"></i>Installation</a>
-          <a href="../alert/alert.html"
-            >Alert<i class="fas fa-arrow-circle-right"></i
-          ></a>
-        </footer>
-      </main>
-      <aside class="aside__right">
-        <h3 class="jumptopage_heading">On this Page</h3>
-        <ul class="jumptopageList">
-          <li><a href="#avatar">Avatar Info</a></li>
-          <li><a href="#roundAvatar">Round Avatar</a></li>
-          <li><a href="#sizeAvatars">Different Sizes of Avatar</a></li>
-          <li><a href="#SquareAvatars">Square Avatar</a></li>
-        </ul>
-      </aside>
-    </div>
-  </body>
+					<h3 class="navbar__mobile__heading">Getting Started</h3>
+					<ul class="navigation__list">
+						<li><a href="">Documentation</a></li>
+					</ul>
+					<h3 class="navbar__mobile__heading">Components</h3>
+					<ul class="navigation__list">
+						<li><a href="./avatar.html">Avatar</a></li>
+						<li><a href="../alert/alert.html">Alert</a></li>
+						<li><a href="../badge/badge.html">Badge</a></li>
+						<li><a href="../buttons/buttons.html">Buttons</a></li>
+						<li><a href="../cards/cards.html">Cards</a></li>
+						<li><a href="../images/images.html">Images</a></li>
+						<li><a href="../input/input.html">Input</a></li>
+					</ul>
+				</nav>
+			</div>
+		</nav>
+		<div class="container">
+			<aside class="aside__left">
+				<div class="navbar">
+					<h3 class="navbar_heading">Getting Started</h3>
+					<ul class="components__list">
+						<li><a href="">Documentation</a></li>
+					</ul>
+					<h3 class="navbar_heading">Components</h3>
+					<ul class="components__list">
+						<li><a href="./avatar.html">Avatar</a></li>
+						<li><a href="../alert/alert.html">Alert</a></li>
+						<li><a href="../badge/badge.html">Badge</a></li>
+						<li><a href="../buttons/buttons.html">Buttons</a></li>
+						<li><a href="../cards/cards.html">Cards</a></li>
+						<li><a href="../images/images.html">Images</a></li>
+						<li><a href="../input/input.html">Input</a></li>
+					</ul>
+				</div>
+			</aside>
+			<main>
+				<h1 class="component__heading" id="avatar">Avatars</h1>
+				<p class="component__description">
+					The Avatar component is used to represent a user, and displays the
+					profile picture, initials.
+				</p>
+				<div class="component_types" id="roundAvatar">
+					<h2 class="component__name">Round Avatars</h2>
+					<p class="component__description">
+						Round avatar are basically used as Profile Pictures. You can use
+						class <code>.avatar</code> to use them
+					</p>
+					<div class="components__example">
+						<img class="avatar" src="../../assets/images.png" alt="avatar" />
+						<img class="avatar" src="../../assets/1.jpg" alt="avatar" />
+						<img
+							class="avatar"
+							src="../../assets/images (1).png"
+							alt="avatar"
+						/>
+						<img class="avatar" src="../../assets/download.jpg" alt="avatar" />
+						<img class="avatar" src="../../assets/3.jpg" alt="avatar" />
+					</div>
+					<div class="component_code">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522your%2520image%2520src%2522%2520href%253D%2522avatar1%2522%2520%252F%253E%2520%2520%2520%2520"
+							style="min-height: 77px"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+				</div>
+				<div class="component_types" id="sizeAvatars">
+					<h2 class="component__name">Sizes in Avatars</h2>
+					<p class="component__description">
+						The Avatar component comes in 5 sizes. you can use class
+						<code>.avatar-xs, .avatar-s, .avatar-m, .avatar-l, .avatar-xl</code>
+						to have different sizes of avatars
+					</p>
+					<div class="components__example">
+						<img
+							class="avatar avatar-xs"
+							src="../../assets/images.png"
+							alt="avatar"
+						/>
+						<img
+							class="avatar avatar-s"
+							src="../../assets/images.png"
+							alt="avatar"
+						/>
+						<img
+							class="avatar avatar-m"
+							src="../../assets/images.png"
+							alt="avatar"
+						/>
+						<img
+							class="avatar avatar-l"
+							src="../../assets/images.png"
+							alt="avatar"
+						/>
+						<img
+							class="avatar avatar-xl"
+							src="../../assets/images.png"
+							alt="avatar"
+						/>
+					</div>
+					<div class="component_code">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xs%2522%2520src%253D%2522..%252F..%252Fassets%252Fimages.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-s%2522%2520src%253D%2522..%252F..%252Fassets%252Fimages.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-m%2522%2520src%253D%2522..%252F..%252Fassets%252Fimages.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-l%2522%2520src%253D%2522..%252F..%252Fassets%252Fimages.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522..%252F..%252Fassets%252Fimages.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E"
+							style="min-height: 158px"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+				</div>
+				<div class="component_types" id="SquareAvatars">
+					<h2 class="component__name">Square Avatars</h2>
+					<p class="component__description">
+						Use class avatar-square to have square avatar you can also used
+						different Sizes with it
+					</p>
+					<div class="components__example">
+						<img
+							class="avatar-square avatar-xs"
+							src="../../assets/1.jpg"
+							alt="avatar"
+						/>
+						<img
+							class="avatar-square avatar-s"
+							src="../../assets/1.jpg"
+							alt="avatar"
+						/>
+						<img
+							class="avatar-square avatar-m"
+							src="../../assets/1.jpg"
+							alt="avatar"
+						/>
+						<img
+							class="avatar-square avatar-l"
+							src="../../assets/1.jpg"
+							alt="avatar"
+						/>
+						<img
+							class="avatar-square avatar-xl"
+							src="../../assets/1.jpg"
+							alt="avatar"
+						/>
+					</div>
+					<div class="component_code">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%253Cimg%2520class%253D%2522avatar-square%2520avatar-xs%2522%2520src%253D%2522..%252F..%252Fassets%252F1.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-s%2522%2520src%253D%2522..%252F..%252Fassets%252F1.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-m%2522%2520src%253D%2522..%252F..%252Fassets%252F1.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-l%2522%2520src%253D%2522..%252F..%252Fassets%252F1.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-xl%2522%2520src%253D%2522..%252F..%252Fassets%252F1.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E"
+							style="min-height: 158px"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+				</div>
+
+				<footer class="footer">
+					<a href="#"><i class="fas fa-arrow-circle-left"></i>Installation</a>
+					<a href="../alert/alert.html"
+						>Alert<i class="fas fa-arrow-circle-right"></i
+					></a>
+				</footer>
+			</main>
+			<aside class="aside__right">
+				<h3 class="jumptopage_heading">On this Page</h3>
+				<ul class="jumptopageList">
+					<li><a href="#avatar">Avatar Info</a></li>
+					<li><a href="#roundAvatar">Round Avatar</a></li>
+					<li><a href="#sizeAvatars">Different Sizes of Avatar</a></li>
+					<li><a href="#SquareAvatars">Square Avatar</a></li>
+				</ul>
+			</aside>
+		</div>
+	</body>
 </html>
