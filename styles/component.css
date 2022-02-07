@@ -14,17 +14,18 @@ html {
   --secondary-color: #3988f0;
   --background-color: #fff;
   --text-color: #282828;
-
   --box--shadow-color: gray;
   --border-color: #e2e8f0;
   --warning-red-color: #ef4444;
-
   --success-green-color: #10b981;
 
   /* hover colors */
   --success-green-color-hover: #34d399;
   --warning-red-color-hover: #f87171;
   --dark-color-hover: #374151;
+
+  /* Star color */
+  --star-color: gold;
 }
 
 iframe {
