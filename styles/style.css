@@ -5,6 +5,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 .home__page {
 	display: flex;
 	flex-direction: column;
@@ -149,7 +150,12 @@
 	background-color: var(--background-color);
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	padding-top: 1rem;
+	overflow-y: auto;
 }
+.navbar__mobile::-webkit-scrollbar {
+	display: none;
+}
+
 .navbar__mobile__heading {
 	color: var(--text-color);
 	padding-bottom: 8px;
@@ -330,6 +336,23 @@ iframe {
 }
 .footer a i {
 	margin: 0 5px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--border-color);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--secondary-color);
 }
 
 /* media Queries */
