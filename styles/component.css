@@ -7,32 +7,25 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 html {
-  font-family: "Roboto Slab", serif;
-  background-color: var(--background-color);
+	font-family: "Roboto Slab", serif;
+	background-color: var(--background-color);
 }
 
 :root {
-  --primary-color: #3bb2f6;
-  --secondary-color: #3988f0;
-  --background-color: #fff;
-  --text-color: #282828;
-  --box--shadow-color: gray;
-  --border-color: #e2e8f0;
-  --warning-red-color: #ef4444;
-  --success-green-color: #10b981;
+	--primary-color: #3bb2f6;
+	--secondary-color: #3988f0;
+	--background-color: #fff;
+	--text-color: #282828;
+	--box--shadow-color: gray;
+	--border-color: #e2e8f0;
+	--warning-red-color: #ef4444;
+	--success-green-color: #10b981;
 
-  /* hover colors */
-  --success-green-color-hover: #34d399;
-  --warning-red-color-hover: #f87171;
-  --dark-color-hover: #374151;
+	/* hover colors */
+	--success-green-color-hover: #34d399;
+	--warning-red-color-hover: #f87171;
+	--dark-color-hover: #374151;
 
-  /* Star color */
-  --star-color: gold;
-}
-
-iframe {
-  border: 0;
-  transform: scale(1);
-  overflow: hidden;
-  width: 100%;
+	/* Star color */
+	--star-color: gold;
 }
