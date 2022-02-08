@@ -427,3 +427,6 @@ iframe {
 .dark-mode .navbar__mobile__heading {
 	color: var(--background-color);
 }
+.dark-mode .jumptopageList li a:hover {
+	color: var(--primary-color);
+}
