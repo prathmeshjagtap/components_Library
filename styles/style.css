@@ -407,3 +407,23 @@ iframe {
 		font-size: 1.2rem;
 	}
 }
+
+/* Dark mode */
+
+.dark-mode {
+	background-color: var(--text-color);
+	text-emphasis-color: var(--background-color);
+	color: var(--background-color);
+}
+.dark-mode .navbar__mobile {
+	background-color: var(--text-color);
+}
+
+.dark-mode .component__description,
+.dark-mode .components__list li a,
+.dark-mode .navbar_heading,
+.dark-mode .jumptopageList li a,
+.dark-mode .navigation__list li a,
+.dark-mode .navbar__mobile__heading {
+	color: var(--background-color);
+}
