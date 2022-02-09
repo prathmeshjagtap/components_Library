@@ -1,6 +1,13 @@
 @import url(../componets/alert/alert.css);
 @import url(../componets/avatar/avatar.css);
 @import url(../componets/badge/badge.css);
+@import url(../componets/buttons/buttons.css);
+@import url(../componets/cards/cards.css);
+@import url(../componets/Images/images.css);
+@import url(../componets/input/input.css);
+@import url(../componets/lists/lists.css);
+@import url(../componets/text_Utilities/textUtilities.css);
+@import url(../componets/ratings/ratings.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
