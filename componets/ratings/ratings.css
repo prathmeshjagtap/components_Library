@@ -1,50 +1,51 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
 .star__rating {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-  position: relative;
-  flex-direction: row-reverse;
+	position: relative;
+	flex-direction: row-reverse;
 }
 .star__rating input {
-  width: 1.5rem;
-  height: 2.5rem;
-  cursor: pointer;
-  -webkit-appearance: none;
-  appearance: none;
-  position: relative;
-  overflow: hidden;
+	width: 1.5rem;
+	height: 2.5rem;
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+	position: relative;
+	overflow: hidden;
 }
 .star__rating input::before {
-  content: "\f005";
-  font-family: fontAwesome;
-  font-size: 2rem;
-  left: 9px;
-  position: absolute;
-  transition: 0.5s;
-  color: var(--border-color);
+	content: "\f005";
+	font-family: fontAwesome;
+	font-size: 2rem;
+	left: 9px;
+	position: absolute;
+	transition: 0.5s;
+	color: var(--border-color);
 }
 .star__rating input:nth-child(2n + 1)::before {
-  right: 9px;
-  left: initial;
+	right: 9px;
+	left: initial;
 }
 .star__rating input:hover ~ input::before,
 .star__rating input:hover::before,
 .star__rating input:checked ~ input::before,
 .star__rating input:checked ::before {
-  color: var(--star-color);
+	color: var(--star-color);
 }
 
 .static__rating {
-  display: flex;
-  gap: 4px;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--primary-color);
-  border-radius: 5px;
-  padding: 4px;
-  color: var(--background-color);
+	display: flex;
+	gap: 4px;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-color);
+	border-radius: 5px;
+	padding: 4px;
+	color: var(--background-color);
 }
 .rating__icon {
-  color: var(--star-color);
+	color: var(--star-color);
 }
