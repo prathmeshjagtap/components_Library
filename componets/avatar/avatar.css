@@ -1,25 +1,26 @@
 .avatar {
-  border-radius: 50%;
-  width: 4rem;
-  margin: 1rem;
+	border-radius: 50%;
+	width: 4rem;
+	margin: 1rem;
+	aspect-ratio: 1 / 1;
 }
 .avatar-square {
-  border-radius: 3px;
-  width: 4rem;
-  margin: 1rem;
+	border-radius: 3px;
+	width: 4rem;
+	margin: 1rem;
 }
 .avatar-xs {
-  width: 2rem;
+	width: 2rem;
 }
 .avatar-s {
-  width: 3rem;
+	width: 3rem;
 }
 .avatar-m {
-  width: 4rem;
+	width: 4rem;
 }
 .avatar-l {
-  width: 6rem;
+	width: 6rem;
 }
 .avatar-xl {
-  width: 8rem;
+	width: 8rem;
 }
