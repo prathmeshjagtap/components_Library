@@ -282,6 +282,10 @@ main {
 	padding: 10px;
 	gap: 10px;
 }
+code {
+	color: var(--secondary-color);
+	font-size: 1rem;
+}
 .component_types {
 	scroll-margin-top: 6rem;
 }
@@ -389,17 +393,6 @@ iframe {
 }
 
 @media screen and (max-width: 480px) {
-	.container {
-		grid-template-columns: 1fr;
-		grid-template-areas: "main";
-		margin: 1rem;
-	}
-	.aside__left {
-		display: none;
-	}
-	.aside__right {
-		display: none;
-	}
 	.main__content__heading {
 		font-size: 2rem;
 	}
