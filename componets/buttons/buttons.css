@@ -1,106 +1,106 @@
 .btn {
-  margin: 8px;
-  padding: 15px;
-  border-radius: 4px;
-  font-size: 1rem;
-  font-weight: 600;
-  border: none;
-  text-decoration: none;
-  cursor: pointer;
+	margin: 8px;
+	padding: 8px;
+	border-radius: 4px;
+	font-size: 1rem;
+	font-weight: 600;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .btn-primary {
-  background-color: var(--primary-color);
-  color: var(--background-color);
+	background-color: var(--primary-color);
+	color: var(--background-color);
 }
 .btn-primary:hover {
-  background-color: var(--secondary-color);
+	background-color: var(--secondary-color);
 }
 .btn-success {
-  background-color: var(--success-green-color);
-  color: var(--background-color);
+	background-color: var(--success-green-color);
+	color: var(--background-color);
 }
 .btn-success:hover {
-  background-color: var(--success-green-color-hover);
+	background-color: var(--success-green-color-hover);
 }
 .btn-warning {
-  background-color: var(--warning-red-color);
-  color: var(--background-color);
+	background-color: var(--warning-red-color);
+	color: var(--background-color);
 }
 .btn-warning:hover {
-  background-color: var(--warning-red-color-hover);
+	background-color: var(--warning-red-color-hover);
 }
 .btn-dark {
-  background-color: var(--text-color);
-  color: var(--background-color);
+	background-color: var(--text-color);
+	color: var(--background-color);
 }
 .btn-dark:hover {
-  background-color: var(--dark-color-hover);
+	background-color: var(--dark-color-hover);
 }
 
 .btn-outline-primary {
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	color: var(--primary-color);
 }
 .btn-outline-primary:hover {
-  background-color: var(--secondary-color);
-  color: var(--background-color);
+	background-color: var(--secondary-color);
+	color: var(--background-color);
 }
 .btn-outline-warning {
-  border: 1px solid var(--warning-red-color);
-  color: var(--warning-red-color);
+	border: 1px solid var(--warning-red-color);
+	color: var(--warning-red-color);
 }
 .btn-outline-warning:hover {
-  background-color: var(--warning-red-color);
-  color: var(--background-color);
+	background-color: var(--warning-red-color);
+	color: var(--background-color);
 }
 
 .btn-outline-success {
-  border: 1px solid var(--success-green-color);
-  color: var(--success-green-color);
+	border: 1px solid var(--success-green-color);
+	color: var(--success-green-color);
 }
 .btn-outline-success:hover {
-  background-color: var(--success-green-color);
-  color: var(--background-color);
+	background-color: var(--success-green-color);
+	color: var(--background-color);
 }
 .btn-outline-dark {
-  border: 1px solid var(--text-color);
-  color: var(--text-color);
+	border: 1px solid var(--text-color);
+	color: var(--text-color);
 }
 .btn-outline-dark:hover {
-  background-color: var(--text-color);
-  color: var(--background-color);
+	background-color: var(--text-color);
+	color: var(--background-color);
 }
 
 .btn-icon {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 .icon {
-  width: 1em;
-  height: 1em;
-  margin-right: 8px;
+	width: 1em;
+	height: 1em;
+	margin-right: 8px;
 }
 .btn-link {
-  color: var(--background-color);
-  background-color: var(--primary-color);
+	color: var(--background-color);
+	background-color: var(--primary-color);
 }
 .btn-link:hover {
-  background-color: var(--secondary-color);
+	background-color: var(--secondary-color);
 }
 .btn-float {
-  margin: 8px;
-  padding: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-  border: none;
-  background-color: var(--primary-color);
-  color: var(--background-color);
-  z-index: 10;
-  min-height: 3rem;
-  min-width: 3rem;
+	margin: 8px;
+	padding: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+	border: none;
+	background-color: var(--primary-color);
+	color: var(--background-color);
+	z-index: 10;
+	min-height: 3rem;
+	min-width: 3rem;
 }
 
 .btn-float:hover {
-  background-color: var(--secondary-color);
+	background-color: var(--secondary-color);
 }
