@@ -52,6 +52,13 @@
 	justify-content: center;
 	gap: 10px;
 }
+.main_buttons button {
+	padding: 15px;
+	width: 15ch;
+}
+.btn__home {
+	padding: 15px;
+}
 
 .button_blue {
 	background-color: var(--secondary-color);
