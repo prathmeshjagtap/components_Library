@@ -11,13 +11,11 @@
 .modal__text {
 	margin-top: 4px;
 }
-
 .modal__buttons {
 	margin-top: 8px;
 	display: flex;
 	justify-content: flex-end;
 }
-
 .modal__items__list {
 	display: flex;
 	flex-direction: column;
