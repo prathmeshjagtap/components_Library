@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="Stylesheet" href="./modal.css" />
+		<link rel="Stylesheet" href="../../styles/style.css" />
+		<link rel="Stylesheet" href="../../styles/component.css" />
+
+		<title>Modal</title>
+	</head>
+
+	<body>
+		<nav class="navigation">
+			<div class="nav__logo">
+				<a class="header_links" href="../../index.html"
+					><i class="far fa-grin-hearts home_icon header__icon"></i>Easy UI</a
+				>
+			</div>
+			<div class="nav__links">
+				<a class="header_links" href="../installation/installation.html"
+					>Docs</a
+				>
+				<a
+					class="header_links"
+					href="https://github.com/prathmeshjagtap/components_Library"
+					><i class="fab fa-github header__icon"></i
+				></a>
+				<a class="header_links" href="https://twitter.com/prathmesh_20"
+					><i class="fab fa-twitter header__icon"></i
+				></a>
+			</div>
+			<div class="navigation__properties">
+				<a class="dark__mode" href="#"
+					><i class="fas fa-moon header__icon"></i
+				></a>
+				<input
+					type="checkbox"
+					id="navigation__toggle"
+					class="navigation__toggle"
+				/>
+				<label for="navigation__toggle" class="toggles">
+					<i class="fas fa-bars header__icon"></i>
+				</label>
+				<nav class="navbar__mobile">
+					<div class="social__links-mobile">
+						<a
+							class="social__link"
+							href="https://github.com/prathmeshjagtap/components_Library"
+							><i class="fab fa-github header__icon"></i
+						></a>
+						<a class="social__link" href="https://twitter.com/prathmesh_20"
+							><i class="fab fa-twitter header__icon"></i
+						></a>
+					</div>
+					<h3 class="navbar__mobile__heading">Getting Started</h3>
+					<ul class="navigation__list">
+						<li>
+							<a href="../installation/installation.html">Installation</a>
+						</li>
+					</ul>
+					<h3 class="navbar__mobile__heading">Components</h3>
+					<ul class="navigation__list">
+						<li><a href="../avatar/avatar.html">Avatar</a></li>
+						<li><a href="../alert/alert.html">Alert</a></li>
+						<li><a href="../badge/badge.html">Badge</a></li>
+						<li><a href="../buttons/buttons.html">Buttons</a></li>
+						<li><a href="../cards/cards.html">Cards</a></li>
+						<li><a href="../Images/images.html">Images</a></li>
+						<li><a href="../input/input.html">Input</a></li>
+						<li>
+							<a href="../text_Utilities/textUtilities.html">Text Utilities</a>
+						</li>
+						<li><a href="../lists/lists.html">Lists</a></li>
+						<li><a href="../ratings/ratings.html">Ratings</a></li>
+						<li><a href="./modal.html">Modal</a></li>
+						<li><a href="../snackBar/snackBar.html">Snack Bar</a></li>
+						<li><a href="../grid/grid.html">Grid</a></li>
+						<li><a href="../navigation/navigation.html">Navigation</a></li>
+						<li><a href="../slider/slider">Slider</a></li>
+					</ul>
+				</nav>
+			</div>
+		</nav>
+		<div class="container">
+			<aside class="aside__left">
+				<div class="navbar">
+					<h3 class="navbar_heading">Getting Started</h3>
+					<ul class="components__list">
+						<li>
+							<a href="../installation/installation.html">Installation</a>
+						</li>
+					</ul>
+					<h3 class="navbar_heading">Components</h3>
+					<ul class="components__list">
+						<li><a href="../avatar/avatar.html">Avatar</a></li>
+						<li><a href="../alert/alert.html">Alert</a></li>
+						<li><a href="../badge/badge.html">Badge</a></li>
+						<li><a href="../buttons/buttons.html">Buttons</a></li>
+						<li><a href="../cards/cards.html">Cards</a></li>
+						<li><a href="../Images/images.html">Images</a></li>
+						<li><a href="../input/input.html">Input</a></li>
+						<li>
+							<a href="../text_Utilities/textUtilities.html">Text Utilities</a>
+						</li>
+						<li><a href="../lists/lists.html">Lists</a></li>
+						<li><a href="../ratings/ratings.html">Ratings</a></li>
+						<li><a href="./modal.html">Modal</a></li>
+						<li><a href="../snackBar/snackBar.html">Snack Bar</a></li>
+						<li><a href="../grid/grid.html">Grid</a></li>
+						<li><a href="../navigation/navigation.html">Navigation</a></li>
+						<li><a href="../slider/slider">Slider</a></li>
+					</ul>
+				</div>
+			</aside>
+			<main>
+				<h1 class="component__heading" id="modal">Modal</h1>
+				<p class="component__description">
+					Modal is mainly used to show some notification to user or take some
+					input.
+				</p>
+				<div class="component_types" id="simpleModal">
+					<h2 class="component__name">Simple Modal</h2>
+					<p class="component__description">
+						use class <code>modal</code> to form a simple notification modal to
+						confirm something from user.
+					</p>
+					<div class="components__example">
+						<div class="modal">
+							<div class="modal__dismiss">
+								<h2 class="modal__title">Delete item</h2>
+								<i class="far fa-times-circle"></i>
+							</div>
+							<p class="modal__text">Are you sure you want to delete</p>
+							<div class="modal__buttons">
+								<button class="btn">Cancel</button>
+								<button class="btn btn-primary">Delete</button>
+							</div>
+						</div>
+					</div>
+					<div class="component_code">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522modal__dismiss%2522%253E%250A%2509%2509%2509%2509%2509%253Ch2%2520class%253D%2522modal__title%2522%253EDelete%2520item%253C%252Fh2%253E%250A%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal__text%2522%253EAre%2520you%2520sure%2520you%2520want%2520to%2520delete%253C%252Fp%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522modal__buttons%2522%253E%250A%2509%2509%2509%2509%2509%2520%253Cbutton%2520class%253D%2522btn%2522%253ECancel%253C%252Fbutton%253E%250A%2509%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EDelete%253C%252Fbutton%253E%250A%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E"
+							style="min-height: 280px"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+				</div>
+				<div class="component_types" id="scrollingModal">
+					<h2 class="component__name">Scrolling Modal</h2>
+					<p class="component__description">
+						use class <code>scrolling__modal</code> along with the class
+						<code>modal</code> to form a scrolling modal
+					</p>
+					<div class="components__example">
+						<div class="modal scrolling__modal">
+							<div class="modal__dismiss">
+								<h2 class="modal__title">Select items</h2>
+								<i class="far fa-times-circle"></i>
+							</div>
+							<ul class="modal__items__list">
+								<li>
+									<input type="radio" />
+									<label>Item 1</label>
+								</li>
+								<li>
+									<input type="radio" />
+									<label>Item 2</label>
+								</li>
+								<li>
+									<input type="radio" />
+									<label>Item 3</label>
+								</li>
+								<li>
+									<input type="radio" />
+									<label>Item 4</label>
+								</li>
+								<li>
+									<input type="radio" />
+									<label>Item 5</label>
+								</li>
+								<li>
+									<input type="radio" />
+									<label>Item 6</label>
+								</li>
+								<li>
+									<input type="radio" />
+									<label>Item 7</label>
+								</li>
+							</ul>
+							<div class="modal__buttons">
+								<button class="btn">Cancel</button>
+								<button class="btn btn-primary">Delete</button>
+							</div>
+						</div>
+					</div>
+					<div class="component_code">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%253Cdiv%2520class%253D%2522modal%2520scrolling__modal%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522modal__dismiss%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ch2%2520class%253D%2522modal__title%2522%253ESelect%2520items%253C%252Fh2%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cul%2520class%253D%2522modal__items__list%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520type%253D%2522radio%2522%2520%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%253EItem%25201%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Fli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520type%253D%2522radio%2522%2520%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%253EItem%25202%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Fli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520type%253D%2522radio%2522%2520%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%253EItem%25203%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Fli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520type%253D%2522radio%2522%2520%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%253EItem%25204%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Fli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520type%253D%2522radio%2522%2520%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%253EItem%25205%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Fli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520type%253D%2522radio%2522%2520%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%253EItem%25206%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Fli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520type%253D%2522radio%2522%2520%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%253EItem%25207%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Fli%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Ful%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522modal__buttons%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2522%253ECancel%253C%252Fbutton%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EDelete%253C%252Fbutton%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%253C%252Fdiv%253E"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+				</div>
+
+				<footer class="footer">
+					<a href="../ratings/ratings.html"
+						><i class="fas fa-arrow-circle-left"></i>Ratings</a
+					>
+					<a href="../snackBar/snackBar.html"
+						>snackBar<i class="fas fa-arrow-circle-right"></i
+					></a>
+				</footer>
+			</main>
+			<aside class="aside__right">
+				<h3 class="jumptopage_heading">On this Page</h3>
+				<ul class="jumptopageList">
+					<li><a href="#modal">Modal</a></li>
+					<li><a href="#simpleModal">Simple Modal</a></li>
+					<li><a href="#scrollingModal">Scrolling Modal</a></li>
+				</ul>
+			</aside>
+		</div>
+		<script src="../../index.js"></script>
+	</body>
+</html>
