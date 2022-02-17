@@ -1,0 +1,28 @@
+.grid {
+	display: grid;
+}
+.grid-2columns {
+	grid-template-columns: 1fr 1fr;
+}
+.grid-3columns {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid__item {
+	width: 5rem;
+	height: 5rem;
+	text-align: center;
+}
+
+.color-red {
+	background-color: var(--warning-red-color);
+}
+.color-green {
+	background-color: var(--success-green-color);
+}
+.color-blue {
+	background-color: var(--primary-color);
+}
+.gap {
+	gap: 1rem;
+}
