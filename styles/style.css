@@ -373,7 +373,6 @@ iframe {
 	.container {
 		grid-template-columns: 280px 1fr;
 		grid-template-areas: "asideleft main";
-		margin: 1rem;
 	}
 	.aside__right {
 		display: none;
@@ -384,7 +383,7 @@ iframe {
 	.container {
 		grid-template-columns: 1fr;
 		grid-template-areas: " main";
-		margin: 1rem;
+		margin-top: 1rem;
 	}
 	.aside__right {
 		display: none;
