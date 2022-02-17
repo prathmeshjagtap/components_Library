@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="../navigation/navigation.css" />
+		<link rel="stylesheet" href="../../styles/style.css" />
+		<link rel="stylesheet" href="../../styles/component.css" />
+
+		<title>Navigation</title>
+	</head>
+
+	<body>
+		<nav class="navigation">
+			<div class="nav__logo">
+				<a class="header_links" href="../../index.html"
+					><i class="far fa-grin-hearts home_icon header__icon"></i>Easy UI</a
+				>
+			</div>
+			<div class="nav__links">
+				<a class="header_links" href="../installation/installation.html"
+					>Docs</a
+				>
+				<a
+					class="header_links"
+					href="https://github.com/prathmeshjagtap/components_Library"
+					><i class="fab fa-github header__icon"></i
+				></a>
+				<a class="header_links" href="https://twitter.com/prathmesh_20"
+					><i class="fab fa-twitter header__icon"></i
+				></a>
+			</div>
+			<div class="navigation__properties">
+				<a class="dark__mode" href="#"
+					><i class="fas fa-moon header__icon"></i
+				></a>
+				<input
+					type="checkbox"
+					id="navigation__toggle"
+					class="navigation__toggle"
+				/>
+				<label for="navigation__toggle" class="toggles">
+					<i class="fas fa-bars header__icon"></i>
+				</label>
+				<nav class="navbar__mobile">
+					<div class="social__links-mobile">
+						<a
+							class="social__link"
+							href="https://github.com/prathmeshjagtap/components_Library"
+							><i class="fab fa-github header__icon"></i
+						></a>
+						<a class="social__link" href="https://twitter.com/prathmesh_20"
+							><i class="fab fa-twitter header__icon"></i
+						></a>
+					</div>
+					<h3 class="navbar__mobile__heading">Getting Started</h3>
+					<ul class="navigation__list">
+						<li>
+							<a href="../installation/installation.html">Installation</a>
+						</li>
+					</ul>
+					<h3 class="navbar__mobile__heading">Components</h3>
+					<ul class="navigation__list">
+						<li><a href="../avatar/avatar.html">Avatar</a></li>
+						<li><a href="../alert/alert.html">Alert</a></li>
+						<li><a href="../badge/badge.html">Badge</a></li>
+						<li><a href="../buttons/buttons.html">Buttons</a></li>
+						<li><a href="../cards/cards.html">Cards</a></li>
+						<li><a href="../images/images.html">Images</a></li>
+						<li><a href="../input/input.html">Input</a></li>
+						<li>
+							<a href="../text_Utilities/textUtilities.html">Text Utilities</a>
+						</li>
+						<li><a href="../lists/lists.html">Lists</a></li>
+						<li><a href="../ratings/ratings.html">Ratings</a></li>
+						<li><a href="../modal/modal.html">Modal</a></li>
+						<li><a href="../snackBar/snackBar.html">Snack Bar</a></li>
+						<li><a href="../grid/grid.html">Grid</a></li>
+						<li><a href="./navigation.html">Navigation</a></li>
+						<li><a href="../slider/slider">Slider</a></li>
+					</ul>
+				</nav>
+			</div>
+		</nav>
+		<div class="container">
+			<aside class="aside__left">
+				<div class="navbar">
+					<h3 class="navbar_heading">Getting Started</h3>
+					<ul class="components__list">
+						<li>
+							<a href="../installation/installation.html">Installation</a>
+						</li>
+					</ul>
+					<h3 class="navbar_heading">Components</h3>
+					<ul class="components__list">
+						<li><a href="../avatar/avatar.html">Avatar</a></li>
+						<li><a href="../alert/alert.html">Alert</a></li>
+						<li><a href="../badge/badge.html">Badge</a></li>
+						<li><a href="../buttons/buttons.html">Buttons</a></li>
+						<li><a href="../cards/cards.html">Cards</a></li>
+						<li><a href="../images/images.html">Images</a></li>
+						<li><a href="../input/input.html">Input</a></li>
+						<li>
+							<a href="../text_Utilities/textUtilities.html">Text Utilities</a>
+						</li>
+						<li><a href="../lists/lists.html">Lists</a></li>
+						<li><a href="../ratings/ratings.html">Ratings</a></li>
+						<li><a href="../modal/modal.html">Modal</a></li>
+						<li><a href="../snackBar/snackBar.html">Snack Bar</a></li>
+						<li><a href="../grid/grid.html">Grid</a></li>
+						<li><a href="./navigation.html">Navigation</a></li>
+						<li><a href="../slider/slider">Slider</a></li>
+					</ul>
+				</div>
+			</aside>
+			<main>
+				<h1 class="component__heading" id="input">Navigation</h1>
+				<p class="component__description">
+					Navigation is used to navigate in a website it is generally placed at
+					top of the Website.
+				</p>
+				<div class="component_types" id="ResponsiveNavigation">
+					<h2 class="component__name">Responsive Navigation</h2>
+					<p class="component__description">
+						Responsive Navigation with search and toggle button on mobile screen
+					</p>
+					<div class="components__example">
+						<nav class="navigation__component">
+							<div class="nav">
+								<a class="toggles">
+									<i class="fas fa-bars"></i>
+								</a>
+								<a class="nav__logo" href="../../index.html">Easy</a>
+								<div class="nav__search">
+									<input class="input" placeholder="Search For items" />
+									<i class="fa fa-search search__icon"></i>
+								</div>
+								<ul class="nav__right">
+									<li>
+										<a class="btn" href="./index.html">Docs</a>
+									</li>
+									<li>
+										<button class="btn">Login</button>
+									</li>
+								</ul>
+							</div>
+							<div class="search__mobile">
+								<input class="input" placeholder="Search For items" />
+								<i class="fa fa-search search__icon"></i>
+							</div>
+						</nav>
+					</div>
+					<div class="component_code">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2520%253Cnav%2520class%253D%2522navigation__component%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522nav%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ca%2520class%253D%2522toggles%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Fa%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ca%2520class%253D%2522nav__logo%2522%2520href%253D%2522..%252F..%252Findex.html%2522%253EEasy%253C%252Fa%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522nav__search%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520class%253D%2522input%2522%2520placeholder%253D%2522Search%2520For%2520items%2522%2520%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-search%2520search__icon%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cul%2520class%253D%2522nav__right%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Cli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Ca%2520class%253D%2522btn%2522%2520href%253D%2522.%252Findex.html%2522%253EDocs%253C%252Fa%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Fli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Cli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2522%253ELogin%253C%252Fbutton%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Fli%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253C%252Ful%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522search__mobile%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520class%253D%2522input%2522%2520placeholder%253D%2522Search%2520For%2520items%2522%2520%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-search%2520search__icon%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%2509%2509%2509%2509%2509"
+							style="min-height: 542px"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+				</div>
+
+				<footer class="footer">
+					<a href="../grid/grid.html"
+						><i class="fas fa-arrow-circle-left"></i>Grid</a
+					>
+					<a href="../slider/slider.html"
+						>Slider<i class="fas fa-arrow-circle-right"></i
+					></a>
+				</footer>
+			</main>
+			<aside class="aside__right">
+				<h3 class="jumptopage_heading">On this Page</h3>
+				<ul class="jumptopageList">
+					<li><a href="#navigation">Navigation Info</a></li>
+					<li><a href="#ResponsiveNavigation"> Responsive Navigation</a></li>
+				</ul>
+			</aside>
+		</div>
+		<script src="../../index.js"></script>
+	</body>
+</html>
