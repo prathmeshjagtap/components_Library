@@ -8,6 +8,9 @@
 @import url(../componets/lists/lists.css);
 @import url(../componets/text_Utilities/textUtilities.css);
 @import url(../componets/ratings/ratings.css);
+@import url(../componets/grid/grid.css);
+@import url(../componets/modal/modal.css);
+@import url(../componets/navigation/navigation.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
