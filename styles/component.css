@@ -37,37 +37,4 @@ html {
 
 	/* Star color */
 	--star-color: gold;
-
-	/* Margin variables */
-	--margin-px: 4px;
-	--margin-rem: 4rem;
-
-	/* Padding Style Variables */
-
-	--padding-px: 4px;
-	--padding--rem: 4rem;
-
-	/* Gap Style Variables */
-
-	--gap-sm: 1rem;
-
-	--gap-m: 2rem;
-
-	--gap-lg: 4rem;
-
-	/* Z-index variables */
-
-	--z-index-s: 1;
-
-	--z-index-m: 2;
-
-	--z-index-lg: 3;
-
-	--z-index-xl: 4;
-
-	--z-index-xxl: 5;
-
-	/* Border Radius  */
-
-	--border-radius: 5px;
 }
