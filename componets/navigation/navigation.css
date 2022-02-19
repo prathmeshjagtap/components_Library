@@ -57,7 +57,7 @@
 .nav__right a {
 	padding: 4px;
 }
-.btn {
+.btn__navigation {
 	padding: 6px;
 	font-size: 1.2rem;
 	border-radius: 4px;
@@ -65,7 +65,7 @@
 	background-color: var(--background-color);
 	cursor: pointer;
 }
-.btn:hover {
+.btn__navigation:hover {
 	background-color: var(--primary-color);
 	color: var(--background-color);
 }
