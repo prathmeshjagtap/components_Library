@@ -1,5 +1,5 @@
-var sliderinput = document.querySelector("#sliderinput");
-var sliderOutput = document.querySelector("#sliderOutput");
+const sliderinput = document.querySelector("#sliderinput");
+const sliderOutput = document.querySelector("#sliderOutput");
 sliderOutput.innerHTML = sliderinput.value;
 
 sliderinput.oninput = () => {
