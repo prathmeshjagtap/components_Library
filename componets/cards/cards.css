@@ -145,3 +145,21 @@
 .card__horizonatal__info button {
 	margin-left: 0;
 }
+
+@media screen and (max-width: 640px) {
+	.card__horizontal {
+		padding: 8px;
+		gap: 1rem;
+	}
+	.card__titles__horizontal {
+		font-size: 1rem;
+	}
+
+	.card__horizontal img {
+		width: 8rem;
+		height: 12rem;
+	}
+	.card__horizonatal__info button {
+		width: 100%;
+	}
+}

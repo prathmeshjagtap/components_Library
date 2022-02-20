@@ -32,3 +32,9 @@
 	font-size: 1.5rem;
 	align-self: center;
 }
+
+@media screen and (max-width: 640px) {
+	.modal {
+		width: 25ch;
+	}
+}
