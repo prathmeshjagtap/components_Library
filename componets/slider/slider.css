@@ -1,0 +1,18 @@
+.slider {
+	width: 100%;
+	cursor: pointer;
+}
+.icon__slider {
+	display: flex;
+	padding: 4px;
+	gap: 4px;
+	border: 2px solid var(--border-color);
+	border-radius: 8px;
+}
+.slider__value {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid var(--border-color);
+	border-radius: 4px;
+	padding: 4px;
+}
