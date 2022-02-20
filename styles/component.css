@@ -11,6 +11,7 @@
 @import url(../componets/grid/grid.css);
 @import url(../componets/modal/modal.css);
 @import url(../componets/navigation/navigation.css);
+@import url(../componets/snackBar/snackBar.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
