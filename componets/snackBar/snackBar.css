@@ -26,16 +26,12 @@
 .btn__snackBar:hover {
 	color: var(--primary-color);
 }
-i {
+.snackBar__close {
 	padding: 4px;
 	cursor: pointer;
 }
 
-i:hover {
+.snackBar__close:hover {
 	background-color: var(--box--shadow-color);
 	border-radius: 50%;
-}
-
-.snackbar.show {
-	visibility: visible;
 }
