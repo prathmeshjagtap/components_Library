@@ -8,10 +8,10 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
 		/>
-		<link rel="stylesheet" href="./grid.css" />
+		<link rel="stylesheet" href="./snackBar.css" />
 		<link rel="stylesheet" href="../../styles/style.css" />
 		<link rel="stylesheet" href="../../styles/component.css" />
-		<title>Grids</title>
+		<title>SnackBar</title>
 	</head>
 	<body>
 		<nav class="navigation">
@@ -77,8 +77,8 @@
 						<li><a href="../lists/lists.html">Lists</a></li>
 						<li><a href="../ratings/ratings.html">Ratings</a></li>
 						<li><a href="../modal/modal.html">Modal</a></li>
-						<li><a href="../snackBar/snackBar.html">Snack Bar</a></li>
-						<li><a href="./grid.html">Grid</a></li>
+						<li><a href="./snackBar.html">Snack Bar</a></li>
+						<li><a href="../grid/grid.html">Grid</a></li>
 						<li><a href="../navigation/navigation.html">Navigation</a></li>
 						<li><a href="../slider/slider">Slider</a></li>
 					</ul>
@@ -109,61 +109,42 @@
 						<li><a href="../lists/lists.html">Lists</a></li>
 						<li><a href="../ratings/ratings.html">Ratings</a></li>
 						<li><a href="../modal/modal.html">Modal</a></li>
-						<li><a href="../snackBar/snackBar.html">Snack Bar</a></li>
-						<li><a href="./grid.html">Grid</a></li>
+						<li><a href="./snackBar.html">Snack Bar</a></li>
+						<li><a href="../grid/grid.html">Grid</a></li>
 						<li><a href="../navigation/navigation.html">Navigation</a></li>
 						<li><a href="../slider/slider">Slider</a></li>
 					</ul>
 				</div>
 			</aside>
 			<main>
-				<h1 class="component__heading" id="grid">Grid</h1>
+				<h1 class="component__heading" id="snackBar">SnackBar</h1>
 				<p class="component__description">
-					Grid is mainly used to display your components we use
-					<code>Display:grid</code> for grids
+					Snackbars provide brief messages about app processes at the bottom of
+					the screen.
 				</p>
-				<div class="component_types" id="2itemsGrid">
-					<h2 class="component__name">Grid with 2 Items in it</h2>
+				<div class="component_types" id="simpleSnackbar">
+					<h2 class="component__name">Simple Baseline Snackbar</h2>
 					<p class="component__description">
-						use class <code>grid and grid-2columns </code> when there are two
-						items in your grid and you want to have both the items placed in
-						columns. You can also used <code>gap</code> class if you want to
-						have a gap between them
+						Use class <code>Snackbar to use BaseLine snackbar</code>
+						Click on the open button and snackBar will open at the bottom of the
+						screen Click on Close button on Snackbar to close the snackBar
 					</p>
 					<div class="components__example">
-						<div class="grid grid-2columns">
-							<div class="grid__item color-red">Red</div>
-							<div class="grid__item color-green">Green</div>
+						<button id="btn__open__snackBar" class="btn btn-primary">
+							Open BaseLine Snakbar
+						</button>
+						<div class="snackbar">
+							<p class="snackbar__info">
+								Can't send photo. Retry in 5 seconds.
+							</p>
+							<button class="btn__snackBar">Retry</button>
+							<i class="fa fa-times snackBar__close"></i>
 						</div>
 					</div>
 					<div class="component_code">
 						<iframe
-							src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522grid%2520grid-2columns%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%2520%2520%253Cdiv%253E%2520Red%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2520%2520%253Cdiv%253E%2520Green%2520%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E"
-							style="min-height: 139px"
-							sandbox="allow-scripts allow-same-origin"
-						>
-						</iframe>
-					</div>
-				</div>
-				<div class="component_types" id="3itemsGrid">
-					<h2 class="component__name">Grid with 3 Items in it</h2>
-					<p class="component__description">
-						use class <code>grid and grid-3columns </code> when there are three
-						items in your grid and you want to have items placed in columns. You
-						can also used <code>gap</code> class if you want to have a gap
-						between them
-					</p>
-					<div class="components__example">
-						<div class="grid grid-3columns gap">
-							<div class="grid__item color-red">Red</div>
-							<div class="grid__item color-green">Green</div>
-							<div class="grid__item color-blue">Blue</div>
-						</div>
-					</div>
-					<div class="component_code">
-						<iframe
-							src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522grid%2520grid-3columns%2520gap%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%2520%2520%253Cdiv%253E%2520Red%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2520%2520%253Cdiv%253E%2520Green%2520%253C%252Fdiv%253E%250A%2509%2509%2520%2520%253Cdiv%253E%2520Blue%2520%2520%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E"
-							style="min-height: 159px"
+							src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=material&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2509%2509%2509%2509%253Cp%2520class%253D%2522snackbar__info%2522%253E%250A%2509%2509%2509%2509%2509cant%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%250A%2509%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn__snackBar%2522%253ERetry%253C%252Fbutton%253E%250A%2509%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-times%2520snackBar__close%2522%253E%253C%252Fi%253E%250A%2509%2509%253C%252Fdiv%253E"
+							style="min-height: 199px"
 							sandbox="allow-scripts allow-same-origin"
 						>
 						</iframe>
@@ -171,20 +152,19 @@
 				</div>
 
 				<footer class="footer">
-					<a href="../snackBar/snackBar.html"
-						><i class="fas fa-arrow-circle-left"></i>Snack Bar</a
+					<a href="../modal/modal.html"
+						><i class="fas fa-arrow-circle-left"></i>Modal</a
 					>
-					<a href="../navigation/navigation.html"
-						>Navigation<i class="fas fa-arrow-circle-right"></i
+					<a href="../grid/grid.html"
+						>Grid<i class="fas fa-arrow-circle-right"></i
 					></a>
 				</footer>
 			</main>
 			<aside class="aside__right">
 				<h3 class="jumptopage_heading">On this Page</h3>
 				<ul class="jumptopageList">
-					<li><a href="#grid">Grid Info</a></li>
-					<li><a href="#2itemsGrid">Grid with 2 items</a></li>
-					<li><a href="#3itemsGrid">Grid with 3 items</a></li>
+					<li><a href="#snackBar">snackBar</a></li>
+					<li><a href="#simpleSnackbar">Simple BaseLine Snackbar</a></li>
 				</ul>
 			</aside>
 		</div>
