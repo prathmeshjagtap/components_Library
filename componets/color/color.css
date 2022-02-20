@@ -1,0 +1,47 @@
+.color__box {
+	width: 12rem;
+	height: 12rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1rem;
+	font-size: 1rem;
+}
+.color__primary {
+	background-color: var(--primary-color);
+}
+.color__secondary {
+	background-color: var(--secondary-color);
+}
+.color__background {
+	background-color: var(--background-color);
+}
+.color__text {
+	background-color: var(--text-color);
+	color: var(--background-color);
+}
+.color__box-shadow {
+	background-color: var(--box--shadow-color);
+}
+.color___border {
+	background-color: var(--border-color);
+}
+.color__success {
+	background-color: var(--success-green-color);
+}
+.color__warning {
+	background-color: var(--warning-red-color);
+}
+.color___dark-hover {
+	background-color: var(--dark-color-hover);
+	color: var(--background-color);
+}
+.color__star {
+	background-color: var(--star-color);
+}
+.color__warning-hover {
+	background-color: var(--warning-red-color-hover);
+}
+.color__success-hover {
+	background-color: var(--success-green-color-hover);
+}
