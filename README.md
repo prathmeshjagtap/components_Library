@@ -13,7 +13,7 @@ Add below link into your html file and you are ready to use Easy-UI into your Pr
 />
 ```
 
-### The components which are avilable in pinakin component library .
+### The components which are avilable in Easy-UI component library .
 
 - [Avatar](#avatar)
 - [Alert](#alert)
