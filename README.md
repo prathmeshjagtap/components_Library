@@ -29,6 +29,7 @@ Add below link into your html file and you are ready to use Easy-UI into your Pr
 - [snakBar](#snackBar)
 - [Responsive-grid](#responsive-gird)
 - [navigation](#navigation)
+- [slider](#slider)
 
 ---
 
@@ -183,7 +184,7 @@ You can find more details by clicking here https://easyui-library.netlify.app/co
 
 ### SnackBar
 
-Navbar is mainly used in web-app to give access for navigation to the user for the different section of web-app.
+Snackbars provide brief messages about app processes at the bottom of the screen.
 
 You can find more details by clicking here https://easyui-library.netlify.app/componets/snackBar/snackBar.html
 
@@ -191,7 +192,7 @@ You can find more details by clicking here https://easyui-library.netlify.app/co
 
 ### Responsive-Grid
 
-This component make sure that your grid is responsive enough.
+Grid is mainly used to display your components we use Display:grid for grids
 
 You can find more details by clicking here https://easyui-library.netlify.app/componets/grid/grid.html
 
@@ -199,9 +200,17 @@ You can find more details by clicking here https://easyui-library.netlify.app/co
 
 ### Navigation
 
-Toast is used to show some message to the user after some operation
+Navigation is used to navigate in a website it is generally placed at top of the Website.
 
 You can find more details by clicking here https://easyui-library.netlify.app/componets/navigation/navigation.html
+
+---
+
+### Slider
+
+The Slider is used to allow users to make selections from a range of values.
+
+You can find more details by clicking here https://easyui-library.netlify.app/componets/slider/slider.html
 
 ---
 
