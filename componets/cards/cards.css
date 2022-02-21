@@ -103,8 +103,8 @@
 .text__overlay-ecom {
 	position: absolute;
 	color: var(--text-color);
-	left: 1rem;
-	top: 15rem;
+	left: 2rem;
+	top: 13rem;
 }
 
 .card__shadow {

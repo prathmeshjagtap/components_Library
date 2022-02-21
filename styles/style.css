@@ -42,17 +42,6 @@ a {
 	margin-top: 10px;
 	color: #718096;
 }
-/* Button */
-.btn {
-	margin: 8px;
-	padding: 15px;
-	border-radius: 4px;
-	font-size: 1rem;
-	font-weight: 600;
-	border: none;
-	text-decoration: none;
-	cursor: pointer;
-}
 
 .main_buttons {
 	display: flex;
@@ -62,9 +51,6 @@ a {
 .main_buttons button {
 	padding: 15px;
 	width: 15ch;
-}
-.btn__home {
-	padding: 15px;
 }
 
 .button_blue {
@@ -283,7 +269,8 @@ main {
 .component__name::before {
 	content: "";
 	display: block;
-	border-bottom: 2px solid var(--border-color);
+	border-bottom: 3px solid var(--border-color);
+	margin-bottom: 2rem;
 }
 
 .components__example {
@@ -302,7 +289,7 @@ code {
 	font-size: 1rem;
 }
 .component_types {
-	scroll-margin-top: 6rem;
+	scroll-margin-top: 4rem;
 }
 iframe {
 	border: 0;
@@ -406,7 +393,7 @@ iframe {
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 560px) {
 	.main__content__heading {
 		font-size: 2rem;
 	}
