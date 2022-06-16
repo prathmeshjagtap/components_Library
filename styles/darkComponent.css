@@ -40,3 +40,35 @@ html {
 	/* Star color */
 	--star-color: gold;
 }
+
+.dark {
+	border: 1px solid var(--background-color);
+}
+
+.outline-dark {
+	border: 1px solid var(--background-color);
+	color: var(--background-color);
+}
+
+.btn-dark {
+	border: 1px solid var(--background-color);
+}
+
+.input {
+	background-color: var(--background-color-2);
+	color: var(--background-color);
+}
+
+.input::placeholder {
+	color: var(--background-color);
+	opacity: 1;
+}
+
+.snackbar {
+	background-color: var(--background-color-2);
+}
+
+.search__icon {
+	background-color: var(--text-color);
+	border: 1px solid var(--border-color);
+}

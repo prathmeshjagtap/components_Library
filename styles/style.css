@@ -56,7 +56,6 @@ a {
 .button_blue {
 	background-color: var(--secondary-color);
 	color: var(--background-color);
-	box-shadow: 1px 1px 5px var(--box--shadow-color);
 }
 .button_grey {
 	background-color: var(--background-color);
@@ -94,6 +93,9 @@ a {
 	margin-left: 4rem;
 	margin: 10px;
 }
+.nav__logo a {
+	margin-left: 2rem;
+}
 .nav__links {
 	display: flex;
 	gap: 40px;
@@ -106,11 +108,12 @@ a {
 	color: var(--background-color);
 }
 .header_links:hover {
-	color: var(--secondary-color);
+	color: var(--text-color);
 }
 .header__icon {
 	margin: 0 10px;
 }
+
 .dark__mode {
 	color: var(--background-color);
 }
@@ -122,6 +125,7 @@ a {
 .toggles {
 	display: none;
 	border: 1px solid var(--border-color);
+	cursor: pointer;
 }
 
 .navigation__toggle:checked ~ nav {
@@ -136,6 +140,11 @@ a {
 	margin-left: 1rem;
 	display: flex;
 }
+
+.navigation__properties a :hover {
+	color: var(--text-color);
+}
+
 .navbar__mobile {
 	position: absolute;
 	right: 0;
@@ -389,8 +398,14 @@ iframe {
 	.nav__links {
 		display: none;
 	}
+	.nav__logo a {
+		margin-left: 1rem;
+	}
 	.toggles {
 		display: block;
+	}
+	.navigation__component__container {
+		width: 100vw;
 	}
 }
 
@@ -419,9 +434,49 @@ iframe {
 .dark-mode .navbar_heading,
 .dark-mode .jumptopageList li a,
 .dark-mode .navigation__list li a,
-.dark-mode .navbar__mobile__heading {
+.dark-mode .navbar__mobile__heading,
+.dark-mode .navigation__properties a :hover,
+.dark-mode .main__content__info {
 	color: var(--background-color);
 }
 .dark-mode .jumptopageList li a:hover {
 	color: var(--primary-color);
+}
+.dark-mode .button_grey {
+	box-shadow: none;
+}
+
+/* Components */
+
+.dark-mode .dark,
+.dark-mode .btn-dark {
+	border: 1px solid var(--background-color);
+}
+
+.dark-mode .outline-dark {
+	border: 1px solid var(--background-color);
+	color: var(--background-color);
+}
+
+.dark-mode .card__info {
+	color: var(--background-color);
+}
+
+.dark-mode .input {
+	background-color: var(--background-color-2);
+	color: var(--background-color);
+}
+
+.dark-mode .input::placeholder {
+	color: var(--background-color);
+	opacity: 1;
+}
+
+.dark-mode .snackbar {
+	background-color: var(--background-color-2);
+}
+
+.dark-mode .search__icon {
+	background-color: var(--text-color);
+	border: 1px solid var(--border-color);
 }
